@@ -341,15 +341,15 @@ void MainWindow::update()
 
 void MainWindow::updateDO()
 {
-    for(int i= 0;i<DOList.count();i++)
+    for(int i= 1;i<DOList.count() + 1;i++)
     {
         if(plcCommObj->getDoValue(i) == 1)
         {
-            DOList[i]->setStyleSheet("background-color: green;border-radius:20px;");
+            DOList[i -1]->setStyleSheet("background-color: green;border-radius:20px;");
         }
         else
         {
-            DOList[i]->setStyleSheet("background-color: red;border-radius:20px;");
+            DOList[i - 1]->setStyleSheet("background-color: red;border-radius:20px;");
         }
     }
 }
@@ -361,15 +361,15 @@ void MainWindow::updateCCUFCUDO()
 
 void MainWindow::updateDI()
 {
-    for(int i= 0;i<DIList.count();i++)
+    for(int i= 1;i<DIList.count() + 1 ;i++)
     {
         if(plcCommObj->getDiValue(i) == 1)
         {
-            DIList[i]->setStyleSheet("background-color: green;border-radius:20px;");
+            DIList[i -1]->setStyleSheet("background-color: green;border-radius:20px;");
         }
         else
         {
-            DIList[i]->setStyleSheet("background-color: red;border-radius:20px;");
+            DIList[i -1]->setStyleSheet("background-color: red;border-radius:20px;");
         }
     }
 }
@@ -392,10 +392,10 @@ void MainWindow::updateCCUFCUDI()
 void MainWindow::updateAI()
 {
     QString val;
-    for(int i= 0;i<AIList.count();i++)
+    for(int i= 1;i<AIList.count();i++)
     {
         val = QString::number(plcCommObj->getAiValue(i));
-        AIList[i]->setText(val);
+        AIList[i - 1]->setText(val);
     }
 }
 
@@ -980,39 +980,39 @@ void MainWindow::on_pushButton_clicked()
 {
     QString AO1 = ui->txtAO1->text();
     int AO1send = AO1.toInt();
-    plcCommObj->setAoValue(0, AO1send);
+    plcCommObj->setAoValue(1, AO1send);
 
     QString AO2 = ui->txtAO2->text();
     int AO2send = AO2.toInt();
-    plcCommObj->setAoValue(1, AO2send);
+    plcCommObj->setAoValue(2, AO2send);
 
     QString AO3 = ui->txtAO3->text();
     int AO3send = AO3.toInt();
-    plcCommObj->setAoValue(2, AO3send);
+    plcCommObj->setAoValue(3, AO3send);
 
     QString AO4 = ui->txtAO4->text();
     int AO4send = AO4.toInt();
-    plcCommObj->setAoValue(3, AO4send);
+    plcCommObj->setAoValue(4, AO4send);
 
     QString AO5 = ui->txtAO5->text();
     int AO5send = AO5.toInt();
-    plcCommObj->setAoValue(4, AO5send);
+    plcCommObj->setAoValue(5, AO5send);
 
     QString AO6 = ui->txtAO6->text();
     int AO6send = AO6.toInt();
-    plcCommObj->setAoValue(5, AO6send);
+    plcCommObj->setAoValue(6, AO6send);
 
     QString AO7 = ui->txtAO7->text();
     int AO7send = AO7.toInt();
-    plcCommObj->setAoValue(6, AO7send);
+    plcCommObj->setAoValue(7, AO7send);
 
     QString AO8 = ui->txtAO8->text();
     int AO8send = AO8.toInt();
-    plcCommObj->setAoValue(7, AO8send);
+    plcCommObj->setAoValue(8, AO8send);
 
     QString AO9 = ui->txtAO9->text();
     int AO9send = AO9.toInt();
-    plcCommObj->setAoValue(8, AO9send);
+    plcCommObj->setAoValue(9, AO9send);
 
     QString AO10 = ui->txtAO10->text();
     int AO10send = AO10.toInt();
@@ -1750,3 +1750,4 @@ void MainWindow::on_btnDO1_3_clicked()
 {
 
 }
+

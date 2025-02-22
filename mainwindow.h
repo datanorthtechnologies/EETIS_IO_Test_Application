@@ -217,6 +217,8 @@ private slots:
 
      void on_btnDO1_3_clicked();
 
+
+
 private:
     Ui::MainWindow *ui;
      QList<QLabel*>DIList;

@@ -24,11 +24,11 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
-      <string>DO</string>
+      <string>PLC-DO</string>
      </attribute>
      <widget class="QLabel" name="DO37">
       <property name="geometry">
@@ -61,7 +61,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_65">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>200</y>
         <width>81</width>
         <height>31</height>
@@ -717,7 +717,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_76">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>440</y>
         <width>81</width>
         <height>31</height>
@@ -765,7 +765,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_78">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>80</y>
         <width>81</width>
         <height>31</height>
@@ -1049,7 +1049,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_84">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>560</y>
         <width>81</width>
         <height>31</height>
@@ -1233,7 +1233,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_87">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>140</y>
         <width>81</width>
         <height>31</height>
@@ -1365,7 +1365,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_89">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>500</y>
         <width>81</width>
         <height>31</height>
@@ -1437,7 +1437,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_92">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>380</y>
         <width>81</width>
         <height>31</height>
@@ -1613,7 +1613,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_97">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>320</y>
         <width>81</width>
         <height>31</height>
@@ -1637,7 +1637,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_98">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>260</y>
         <width>81</width>
         <height>31</height>
@@ -1821,7 +1821,7 @@ border-radius:20px;
      <widget class="QLabel" name="label_101">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>20</y>
         <width>81</width>
         <height>31</height>
@@ -2243,7 +2243,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO14">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>205</y>
         <width>61</width>
         <height>28</height>
@@ -2256,7 +2256,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO12">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>85</y>
         <width>61</width>
         <height>28</height>
@@ -2269,7 +2269,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO11">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>25</y>
         <width>61</width>
         <height>28</height>
@@ -2282,7 +2282,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO19">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>505</y>
         <width>61</width>
         <height>28</height>
@@ -2295,7 +2295,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO15">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>265</y>
         <width>61</width>
         <height>28</height>
@@ -2308,7 +2308,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO16">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>325</y>
         <width>61</width>
         <height>28</height>
@@ -2321,7 +2321,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO17">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>385</y>
         <width>61</width>
         <height>28</height>
@@ -2334,7 +2334,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO13">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>145</y>
         <width>61</width>
         <height>28</height>
@@ -2347,7 +2347,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO18">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>445</y>
         <width>61</width>
         <height>28</height>
@@ -2360,7 +2360,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO20">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>564</y>
         <width>61</width>
         <height>28</height>
@@ -2373,8 +2373,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO22">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>85</y>
+        <x>550</x>
+        <y>84</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2386,8 +2386,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO28">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>445</y>
+        <x>550</x>
+        <y>444</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2399,8 +2399,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO26">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>325</y>
+        <x>550</x>
+        <y>324</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2412,8 +2412,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO24">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>205</y>
+        <x>550</x>
+        <y>204</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2425,8 +2425,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO23">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>145</y>
+        <x>550</x>
+        <y>144</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2438,8 +2438,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO25">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>265</y>
+        <x>550</x>
+        <y>264</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2451,8 +2451,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO27">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>385</y>
+        <x>550</x>
+        <y>384</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2464,8 +2464,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO29">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>505</y>
+        <x>550</x>
+        <y>504</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2477,8 +2477,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO30">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>564</y>
+        <x>550</x>
+        <y>563</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2490,8 +2490,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO21">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>25</y>
+        <x>550</x>
+        <y>24</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -2503,7 +2503,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO32">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>85</y>
         <width>61</width>
         <height>28</height>
@@ -2516,7 +2516,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO38">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>445</y>
         <width>61</width>
         <height>28</height>
@@ -2529,7 +2529,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO36">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>325</y>
         <width>61</width>
         <height>28</height>
@@ -2542,7 +2542,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO34">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>205</y>
         <width>61</width>
         <height>28</height>
@@ -2555,7 +2555,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO33">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>145</y>
         <width>61</width>
         <height>28</height>
@@ -2568,7 +2568,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO35">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>265</y>
         <width>61</width>
         <height>28</height>
@@ -2581,7 +2581,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO37">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>385</y>
         <width>61</width>
         <height>28</height>
@@ -2594,7 +2594,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO39">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>505</y>
         <width>61</width>
         <height>28</height>
@@ -2607,7 +2607,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO40">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>564</y>
         <width>61</width>
         <height>28</height>
@@ -2620,7 +2620,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO31">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>25</y>
         <width>61</width>
         <height>28</height>
@@ -2657,7 +2657,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn48">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>445</y>
         <width>61</width>
         <height>28</height>
@@ -2726,7 +2726,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn50">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>564</y>
         <width>61</width>
         <height>28</height>
@@ -2915,7 +2915,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn44">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>205</y>
         <width>61</width>
         <height>28</height>
@@ -2952,7 +2952,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn41">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>25</y>
         <width>61</width>
         <height>28</height>
@@ -2993,7 +2993,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn47">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>385</y>
         <width>61</width>
         <height>28</height>
@@ -3090,7 +3090,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn42">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>85</y>
         <width>61</width>
         <height>28</height>
@@ -3103,7 +3103,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn45">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>265</y>
         <width>61</width>
         <height>28</height>
@@ -3116,7 +3116,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn46">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>325</y>
         <width>61</width>
         <height>28</height>
@@ -3129,7 +3129,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn49">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>505</y>
         <width>61</width>
         <height>28</height>
@@ -3246,7 +3246,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn43">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1010</x>
         <y>145</y>
         <width>61</width>
         <height>28</height>
@@ -3307,7 +3307,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn58">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>445</y>
         <width>61</width>
         <height>28</height>
@@ -3376,7 +3376,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn60">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>564</y>
         <width>61</width>
         <height>28</height>
@@ -3565,7 +3565,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn54">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>205</y>
         <width>61</width>
         <height>28</height>
@@ -3602,7 +3602,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn51">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>25</y>
         <width>61</width>
         <height>28</height>
@@ -3643,7 +3643,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn57">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>385</y>
         <width>61</width>
         <height>28</height>
@@ -3740,7 +3740,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn52">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>85</y>
         <width>61</width>
         <height>28</height>
@@ -3753,7 +3753,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn55">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>265</y>
         <width>61</width>
         <height>28</height>
@@ -3766,7 +3766,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn56">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>325</y>
         <width>61</width>
         <height>28</height>
@@ -3779,7 +3779,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn59">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>505</y>
         <width>61</width>
         <height>28</height>
@@ -3896,7 +3896,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn53">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>145</y>
         <width>61</width>
         <height>28</height>
@@ -3933,8 +3933,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn63">
       <property name="geometry">
        <rect>
-        <x>1040</x>
-        <y>625</y>
+        <x>810</x>
+        <y>660</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -3946,8 +3946,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO61">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>620</y>
+        <x>210</x>
+        <y>655</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -3974,8 +3974,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO63">
       <property name="geometry">
        <rect>
-        <x>900</x>
-        <y>620</y>
+        <x>670</x>
+        <y>655</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -4002,8 +4002,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_145">
       <property name="geometry">
        <rect>
-        <x>960</x>
-        <y>620</y>
+        <x>730</x>
+        <y>655</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4026,8 +4026,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_146">
       <property name="geometry">
        <rect>
-        <x>1180</x>
-        <y>620</y>
+        <x>950</x>
+        <y>655</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4050,8 +4050,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn64">
       <property name="geometry">
        <rect>
-        <x>1260</x>
-        <y>625</y>
+        <x>1030</x>
+        <y>660</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -4063,8 +4063,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_147">
       <property name="geometry">
        <rect>
-        <x>730</x>
-        <y>620</y>
+        <x>500</x>
+        <y>655</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4087,8 +4087,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_148">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>620</y>
+        <x>270</x>
+        <y>655</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -4111,8 +4111,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO62">
       <property name="geometry">
        <rect>
-        <x>680</x>
-        <y>620</y>
+        <x>450</x>
+        <y>655</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -4139,8 +4139,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn62">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>625</y>
+        <x>590</x>
+        <y>660</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -4152,8 +4152,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO64">
       <property name="geometry">
        <rect>
-        <x>1125</x>
-        <y>620</y>
+        <x>895</x>
+        <y>655</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -4180,8 +4180,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn61">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>625</y>
+        <x>360</x>
+        <y>660</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -4190,10 +4190,342 @@ border-radius:20px;
        <string>OFF</string>
       </property>
      </widget>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>191</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>10</y>
+        <width>191</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>10</y>
+        <width>191</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>10</y>
+        <width>191</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>10</y>
+        <width>191</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_7">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>640</y>
+        <width>951</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <zorder>frame_7</zorder>
+     <zorder>frame_6</zorder>
+     <zorder>frame_5</zorder>
+     <zorder>frame_4</zorder>
+     <zorder>frame_3</zorder>
+     <zorder>frame</zorder>
+     <zorder>DO37</zorder>
+     <zorder>label_65</zorder>
+     <zorder>DO36</zorder>
+     <zorder>DO34</zorder>
+     <zorder>label_66</zorder>
+     <zorder>DO11</zorder>
+     <zorder>DO30</zorder>
+     <zorder>DO14</zorder>
+     <zorder>DO29</zorder>
+     <zorder>label_67</zorder>
+     <zorder>label_68</zorder>
+     <zorder>DO27</zorder>
+     <zorder>DO13</zorder>
+     <zorder>DO22</zorder>
+     <zorder>DO16</zorder>
+     <zorder>label_69</zorder>
+     <zorder>DO32</zorder>
+     <zorder>label_70</zorder>
+     <zorder>label_71</zorder>
+     <zorder>label_72</zorder>
+     <zorder>DO33</zorder>
+     <zorder>label_73</zorder>
+     <zorder>label_74</zorder>
+     <zorder>label_75</zorder>
+     <zorder>DO4</zorder>
+     <zorder>DO17</zorder>
+     <zorder>label_76</zorder>
+     <zorder>label_77</zorder>
+     <zorder>label_78</zorder>
+     <zorder>DO19</zorder>
+     <zorder>label_79</zorder>
+     <zorder>label_80</zorder>
+     <zorder>DO39</zorder>
+     <zorder>label_81</zorder>
+     <zorder>label_82</zorder>
+     <zorder>DO10</zorder>
+     <zorder>label_83</zorder>
+     <zorder>DO5</zorder>
+     <zorder>DO23</zorder>
+     <zorder>label_84</zorder>
+     <zorder>DO25</zorder>
+     <zorder>label_85</zorder>
+     <zorder>DO1</zorder>
+     <zorder>label_86</zorder>
+     <zorder>DO12</zorder>
+     <zorder>DO6</zorder>
+     <zorder>label_87</zorder>
+     <zorder>DO7</zorder>
+     <zorder>DO21</zorder>
+     <zorder>DO8</zorder>
+     <zorder>label_88</zorder>
+     <zorder>label_89</zorder>
+     <zorder>label_90</zorder>
+     <zorder>label_91</zorder>
+     <zorder>label_92</zorder>
+     <zorder>label_93</zorder>
+     <zorder>label_94</zorder>
+     <zorder>label_95</zorder>
+     <zorder>label_96</zorder>
+     <zorder>DO35</zorder>
+     <zorder>DO3</zorder>
+     <zorder>label_97</zorder>
+     <zorder>label_98</zorder>
+     <zorder>DO24</zorder>
+     <zorder>DO28</zorder>
+     <zorder>label_99</zorder>
+     <zorder>DO26</zorder>
+     <zorder>label_100</zorder>
+     <zorder>DO38</zorder>
+     <zorder>label_101</zorder>
+     <zorder>DO40</zorder>
+     <zorder>DO9</zorder>
+     <zorder>DO20</zorder>
+     <zorder>label_102</zorder>
+     <zorder>DO15</zorder>
+     <zorder>DO2</zorder>
+     <zorder>DO18</zorder>
+     <zorder>label_103</zorder>
+     <zorder>label_104</zorder>
+     <zorder>DO31</zorder>
+     <zorder>btnDO1</zorder>
+     <zorder>btnDO2</zorder>
+     <zorder>btnDO3</zorder>
+     <zorder>btnDO5</zorder>
+     <zorder>btnDO4</zorder>
+     <zorder>btnDO6</zorder>
+     <zorder>btnDO7</zorder>
+     <zorder>btnDO8</zorder>
+     <zorder>btnDO9</zorder>
+     <zorder>btnDO10</zorder>
+     <zorder>btnDO14</zorder>
+     <zorder>btnDO12</zorder>
+     <zorder>btnDO11</zorder>
+     <zorder>btnDO19</zorder>
+     <zorder>btnDO15</zorder>
+     <zorder>btnDO16</zorder>
+     <zorder>btnDO17</zorder>
+     <zorder>btnDO13</zorder>
+     <zorder>btnDO18</zorder>
+     <zorder>btnDO20</zorder>
+     <zorder>btnDO22</zorder>
+     <zorder>btnDO28</zorder>
+     <zorder>btnDO26</zorder>
+     <zorder>btnDO24</zorder>
+     <zorder>btnDO23</zorder>
+     <zorder>btnDO25</zorder>
+     <zorder>btnDO27</zorder>
+     <zorder>btnDO29</zorder>
+     <zorder>btnDO30</zorder>
+     <zorder>btnDO21</zorder>
+     <zorder>btnDO32</zorder>
+     <zorder>btnDO38</zorder>
+     <zorder>btnDO36</zorder>
+     <zorder>btnDO34</zorder>
+     <zorder>btnDO33</zorder>
+     <zorder>btnDO35</zorder>
+     <zorder>btnDO37</zorder>
+     <zorder>btnDO39</zorder>
+     <zorder>btnDO40</zorder>
+     <zorder>btnDO31</zorder>
+     <zorder>label_125</zorder>
+     <zorder>btn48</zorder>
+     <zorder>DO44</zorder>
+     <zorder>DO47</zorder>
+     <zorder>btn50</zorder>
+     <zorder>label_126</zorder>
+     <zorder>DO45</zorder>
+     <zorder>label_127</zorder>
+     <zorder>label_128</zorder>
+     <zorder>DO46</zorder>
+     <zorder>label_129</zorder>
+     <zorder>label_130</zorder>
+     <zorder>btn44</zorder>
+     <zorder>label_131</zorder>
+     <zorder>btn41</zorder>
+     <zorder>DO42</zorder>
+     <zorder>btn47</zorder>
+     <zorder>DO50</zorder>
+     <zorder>DO41</zorder>
+     <zorder>DO49</zorder>
+     <zorder>btn42</zorder>
+     <zorder>btn45</zorder>
+     <zorder>btn46</zorder>
+     <zorder>btn49</zorder>
+     <zorder>label_132</zorder>
+     <zorder>label_133</zorder>
+     <zorder>DO48</zorder>
+     <zorder>DO43</zorder>
+     <zorder>btn43</zorder>
+     <zorder>label_134</zorder>
+     <zorder>label_135</zorder>
+     <zorder>btn58</zorder>
+     <zorder>DO54</zorder>
+     <zorder>DO57</zorder>
+     <zorder>btn60</zorder>
+     <zorder>label_136</zorder>
+     <zorder>DO55</zorder>
+     <zorder>label_137</zorder>
+     <zorder>label_138</zorder>
+     <zorder>DO56</zorder>
+     <zorder>label_139</zorder>
+     <zorder>label_140</zorder>
+     <zorder>btn54</zorder>
+     <zorder>label_141</zorder>
+     <zorder>btn51</zorder>
+     <zorder>DO52</zorder>
+     <zorder>btn57</zorder>
+     <zorder>DO60</zorder>
+     <zorder>DO51</zorder>
+     <zorder>DO59</zorder>
+     <zorder>btn52</zorder>
+     <zorder>btn55</zorder>
+     <zorder>btn56</zorder>
+     <zorder>btn59</zorder>
+     <zorder>label_142</zorder>
+     <zorder>label_143</zorder>
+     <zorder>DO58</zorder>
+     <zorder>DO53</zorder>
+     <zorder>btn53</zorder>
+     <zorder>label_144</zorder>
+     <zorder>btn63</zorder>
+     <zorder>DO61</zorder>
+     <zorder>DO63</zorder>
+     <zorder>label_145</zorder>
+     <zorder>label_146</zorder>
+     <zorder>btn64</zorder>
+     <zorder>label_147</zorder>
+     <zorder>label_148</zorder>
+     <zorder>DO62</zorder>
+     <zorder>btn62</zorder>
+     <zorder>DO64</zorder>
+     <zorder>btn61</zorder>
+     <zorder>frame_2</zorder>
+     <zorder>frame_2</zorder>
     </widget>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
-      <string>DI</string>
+      <string>PLC-DI</string>
      </attribute>
      <widget class="QLabel" name="DI1">
       <property name="geometry">
@@ -7523,10 +7855,300 @@ border-radius:20px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
+     <widget class="QFrame" name="frame_8">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <zorder>DI7</zorder>
+     </widget>
+     <widget class="QFrame" name="frame_9">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_10">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_11">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_12">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_13">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_14">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>0</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <zorder>frame_14</zorder>
+     <zorder>frame_13</zorder>
+     <zorder>frame_12</zorder>
+     <zorder>frame_11</zorder>
+     <zorder>frame_10</zorder>
+     <zorder>frame_9</zorder>
+     <zorder>frame_8</zorder>
+     <zorder>DI1</zorder>
+     <zorder>label_15</zorder>
+     <zorder>label_16</zorder>
+     <zorder>DI2</zorder>
+     <zorder>DI3</zorder>
+     <zorder>label_17</zorder>
+     <zorder>DI4</zorder>
+     <zorder>DI5</zorder>
+     <zorder>DI7</zorder>
+     <zorder>DI9</zorder>
+     <zorder>DI8</zorder>
+     <zorder>DI6</zorder>
+     <zorder>DI10</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_19</zorder>
+     <zorder>label_20</zorder>
+     <zorder>label_21</zorder>
+     <zorder>label_22</zorder>
+     <zorder>label_23</zorder>
+     <zorder>label_24</zorder>
+     <zorder>label_35</zorder>
+     <zorder>DI13</zorder>
+     <zorder>DI20</zorder>
+     <zorder>DI15</zorder>
+     <zorder>label_36</zorder>
+     <zorder>DI17</zorder>
+     <zorder>label_37</zorder>
+     <zorder>DI18</zorder>
+     <zorder>DI12</zorder>
+     <zorder>label_38</zorder>
+     <zorder>DI14</zorder>
+     <zorder>label_39</zorder>
+     <zorder>label_40</zorder>
+     <zorder>DI19</zorder>
+     <zorder>label_41</zorder>
+     <zorder>label_42</zorder>
+     <zorder>label_43</zorder>
+     <zorder>DI11</zorder>
+     <zorder>DI16</zorder>
+     <zorder>label_44</zorder>
+     <zorder>DI27</zorder>
+     <zorder>label_45</zorder>
+     <zorder>DI21</zorder>
+     <zorder>DI28</zorder>
+     <zorder>DI23</zorder>
+     <zorder>DI22</zorder>
+     <zorder>DI24</zorder>
+     <zorder>label_46</zorder>
+     <zorder>DI25</zorder>
+     <zorder>DI26</zorder>
+     <zorder>label_47</zorder>
+     <zorder>label_48</zorder>
+     <zorder>label_49</zorder>
+     <zorder>label_50</zorder>
+     <zorder>label_51</zorder>
+     <zorder>DI29</zorder>
+     <zorder>DI30</zorder>
+     <zorder>label_52</zorder>
+     <zorder>label_53</zorder>
+     <zorder>label_54</zorder>
+     <zorder>DI37</zorder>
+     <zorder>label_55</zorder>
+     <zorder>DI31</zorder>
+     <zorder>DI38</zorder>
+     <zorder>DI33</zorder>
+     <zorder>DI32</zorder>
+     <zorder>DI34</zorder>
+     <zorder>label_56</zorder>
+     <zorder>DI35</zorder>
+     <zorder>DI36</zorder>
+     <zorder>label_57</zorder>
+     <zorder>label_58</zorder>
+     <zorder>label_59</zorder>
+     <zorder>label_60</zorder>
+     <zorder>label_61</zorder>
+     <zorder>DI39</zorder>
+     <zorder>DI40</zorder>
+     <zorder>label_62</zorder>
+     <zorder>label_63</zorder>
+     <zorder>label_64</zorder>
+     <zorder>DI47</zorder>
+     <zorder>DI42</zorder>
+     <zorder>DI45</zorder>
+     <zorder>DI43</zorder>
+     <zorder>DI41</zorder>
+     <zorder>DI44</zorder>
+     <zorder>label_149</zorder>
+     <zorder>label_150</zorder>
+     <zorder>DI50</zorder>
+     <zorder>label_151</zorder>
+     <zorder>label_152</zorder>
+     <zorder>label_153</zorder>
+     <zorder>label_154</zorder>
+     <zorder>label_155</zorder>
+     <zorder>DI46</zorder>
+     <zorder>DI48</zorder>
+     <zorder>label_156</zorder>
+     <zorder>DI49</zorder>
+     <zorder>label_157</zorder>
+     <zorder>label_158</zorder>
+     <zorder>DI56</zorder>
+     <zorder>label_159</zorder>
+     <zorder>DI52</zorder>
+     <zorder>label_160</zorder>
+     <zorder>label_161</zorder>
+     <zorder>label_162</zorder>
+     <zorder>label_163</zorder>
+     <zorder>DI53</zorder>
+     <zorder>DI57</zorder>
+     <zorder>DI51</zorder>
+     <zorder>label_164</zorder>
+     <zorder>DI58</zorder>
+     <zorder>DI59</zorder>
+     <zorder>label_165</zorder>
+     <zorder>label_166</zorder>
+     <zorder>label_167</zorder>
+     <zorder>DI54</zorder>
+     <zorder>DI60</zorder>
+     <zorder>label_168</zorder>
+     <zorder>DI55</zorder>
+     <zorder>label_169</zorder>
+     <zorder>DI64</zorder>
+     <zorder>label_171</zorder>
+     <zorder>label_174</zorder>
+     <zorder>DI63</zorder>
+     <zorder>DI62</zorder>
+     <zorder>label_176</zorder>
+     <zorder>DI61</zorder>
     </widget>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
-      <string>AI</string>
+      <string>PLC-AI</string>
      </attribute>
      <widget class="QLabel" name="label_105">
       <property name="geometry">
@@ -7941,7 +8563,7 @@ border-radius:20px;
     </widget>
     <widget class="QWidget" name="tab_8">
      <attribute name="title">
-      <string>AO</string>
+      <string>PLC-AO</string>
      </attribute>
      <widget class="QLineEdit" name="txtAO7">
       <property name="geometry">
@@ -8369,7 +8991,7 @@ border-radius:20px;
     </widget>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>Page</string>
+      <string>CCUFCCU-DO</string>
      </attribute>
      <widget class="QLabel" name="DO14_2">
       <property name="geometry">
@@ -8554,8 +9176,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_177">
       <property name="geometry">
        <rect>
-        <x>730</x>
-        <y>635</y>
+        <x>580</x>
+        <y>675</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -8615,7 +9237,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn51_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>40</y>
         <width>61</width>
         <height>28</height>
@@ -8704,8 +9326,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn61_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>640</y>
+        <x>440</x>
+        <y>680</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -8745,7 +9367,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO12_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>100</y>
         <width>61</width>
         <height>28</height>
@@ -8786,7 +9408,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO32_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>100</y>
         <width>61</width>
         <height>28</height>
@@ -8899,7 +9521,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn41_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>40</y>
         <width>61</width>
         <height>28</height>
@@ -8912,7 +9534,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO31_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>40</y>
         <width>61</width>
         <height>28</height>
@@ -9029,7 +9651,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO24_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>220</y>
         <width>61</width>
         <height>28</height>
@@ -9114,8 +9736,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_189">
       <property name="geometry">
        <rect>
-        <x>500</x>
-        <y>635</y>
+        <x>350</x>
+        <y>675</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -9266,7 +9888,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO19_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>520</y>
         <width>61</width>
         <height>28</height>
@@ -9279,8 +9901,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_193">
       <property name="geometry">
        <rect>
-        <x>960</x>
-        <y>635</y>
+        <x>810</x>
+        <y>675</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -9327,8 +9949,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO64_2">
       <property name="geometry">
        <rect>
-        <x>1125</x>
-        <y>635</y>
+        <x>975</x>
+        <y>675</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -9383,7 +10005,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn42_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>100</y>
         <width>61</width>
         <height>28</height>
@@ -9485,7 +10107,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn48_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>460</y>
         <width>61</width>
         <height>28</height>
@@ -9498,7 +10120,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO18_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>460</y>
         <width>61</width>
         <height>28</height>
@@ -9591,7 +10213,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn46_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>340</y>
         <width>61</width>
         <height>28</height>
@@ -9665,7 +10287,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn54_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>220</y>
         <width>61</width>
         <height>28</height>
@@ -9758,7 +10380,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO27_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>400</y>
         <width>61</width>
         <height>28</height>
@@ -9771,7 +10393,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO29_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>520</y>
         <width>61</width>
         <height>28</height>
@@ -9845,7 +10467,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn60_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>579</y>
         <width>61</width>
         <height>28</height>
@@ -9914,7 +10536,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO14_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>220</y>
         <width>61</width>
         <height>28</height>
@@ -9999,7 +10621,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO40_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>579</y>
         <width>61</width>
         <height>28</height>
@@ -10012,7 +10634,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO35_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>280</y>
         <width>61</width>
         <height>28</height>
@@ -10025,7 +10647,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn49_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>520</y>
         <width>61</width>
         <height>28</height>
@@ -10051,7 +10673,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO26_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>340</y>
         <width>61</width>
         <height>28</height>
@@ -10177,7 +10799,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn57_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>400</y>
         <width>61</width>
         <height>28</height>
@@ -10274,7 +10896,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn58_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>460</y>
         <width>61</width>
         <height>28</height>
@@ -10287,7 +10909,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO36_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>340</y>
         <width>61</width>
         <height>28</height>
@@ -10356,8 +10978,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn62_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>640</y>
+        <x>670</x>
+        <y>680</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -10477,7 +11099,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn47_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>400</y>
         <width>61</width>
         <height>28</height>
@@ -10566,7 +11188,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn59_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>520</y>
         <width>61</width>
         <height>28</height>
@@ -10607,8 +11229,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn63_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
-        <y>640</y>
+        <x>890</x>
+        <y>680</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -10648,7 +11270,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn53_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>160</y>
         <width>61</width>
         <height>28</height>
@@ -10713,7 +11335,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO34_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>220</y>
         <width>61</width>
         <height>28</height>
@@ -10726,7 +11348,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn44_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>220</y>
         <width>61</width>
         <height>28</height>
@@ -10739,7 +11361,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO11_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>40</y>
         <width>61</width>
         <height>28</height>
@@ -10916,7 +11538,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO13_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>160</y>
         <width>61</width>
         <height>28</height>
@@ -10929,7 +11551,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO23_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>160</y>
         <width>61</width>
         <height>28</height>
@@ -10942,7 +11564,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO25_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>280</y>
         <width>61</width>
         <height>28</height>
@@ -11079,7 +11701,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO21_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>40</y>
         <width>61</width>
         <height>28</height>
@@ -11176,8 +11798,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO63_2">
       <property name="geometry">
        <rect>
-        <x>900</x>
-        <y>635</y>
+        <x>750</x>
+        <y>675</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -11308,7 +11930,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO17_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>400</y>
         <width>61</width>
         <height>28</height>
@@ -11373,7 +11995,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn50_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>579</y>
         <width>61</width>
         <height>28</height>
@@ -11594,7 +12216,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn43_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>160</y>
         <width>61</width>
         <height>28</height>
@@ -11607,7 +12229,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO30_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>579</y>
         <width>61</width>
         <height>28</height>
@@ -11620,8 +12242,8 @@ border-radius:20px;
      <widget class="QLabel" name="label_225">
       <property name="geometry">
        <rect>
-        <x>1180</x>
-        <y>635</y>
+        <x>1030</x>
+        <y>675</y>
         <width>81</width>
         <height>31</height>
        </rect>
@@ -11644,7 +12266,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO15_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>280</y>
         <width>61</width>
         <height>28</height>
@@ -11657,7 +12279,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO33_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>160</y>
         <width>61</width>
         <height>28</height>
@@ -11718,7 +12340,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO37_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>400</y>
         <width>61</width>
         <height>28</height>
@@ -11731,7 +12353,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn55_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>280</y>
         <width>61</width>
         <height>28</height>
@@ -11768,7 +12390,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn45_2">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1020</x>
         <y>280</y>
         <width>61</width>
         <height>28</height>
@@ -11829,7 +12451,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO39_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>520</y>
         <width>61</width>
         <height>28</height>
@@ -11954,7 +12576,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn56_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>340</y>
         <width>61</width>
         <height>28</height>
@@ -11967,7 +12589,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO28_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>460</y>
         <width>61</width>
         <height>28</height>
@@ -11980,8 +12602,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO61_2">
       <property name="geometry">
        <rect>
-        <x>440</x>
-        <y>635</y>
+        <x>290</x>
+        <y>675</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -12060,7 +12682,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO22_2">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>560</x>
         <y>100</y>
         <width>61</width>
         <height>28</height>
@@ -12073,7 +12695,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO20_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>579</y>
         <width>61</width>
         <height>28</height>
@@ -12270,7 +12892,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO16_2">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>340</y>
         <width>61</width>
         <height>28</height>
@@ -12363,7 +12985,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btnDO38_2">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>790</x>
         <y>460</y>
         <width>61</width>
         <height>28</height>
@@ -12452,7 +13074,7 @@ border-radius:20px;
      <widget class="QPushButton" name="btn52_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
+        <x>1230</x>
         <y>100</y>
         <width>61</width>
         <height>28</height>
@@ -12465,8 +13087,8 @@ border-radius:20px;
      <widget class="QLabel" name="DO62_2">
       <property name="geometry">
        <rect>
-        <x>680</x>
-        <y>635</y>
+        <x>530</x>
+        <y>675</y>
         <width>40</width>
         <height>40</height>
        </rect>
@@ -12493,8 +13115,8 @@ border-radius:20px;
      <widget class="QPushButton" name="btn64_2">
       <property name="geometry">
        <rect>
-        <x>1260</x>
-        <y>640</y>
+        <x>1110</x>
+        <y>680</y>
         <width>61</width>
         <height>28</height>
        </rect>
@@ -12531,23 +13153,363 @@ border-radius:20px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnDO1_3">
+     <widget class="QFrame" name="frame_15">
       <property name="geometry">
        <rect>
-        <x>170</x>
-        <y>10</y>
-        <width>61</width>
-        <height>28</height>
+        <x>10</x>
+        <y>20</y>
+        <width>191</width>
+        <height>621</height>
        </rect>
       </property>
-      <property name="text">
-       <string>OFF</string>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
       </property>
      </widget>
+     <widget class="QFrame" name="frame_16">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>191</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_17">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>20</y>
+        <width>201</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_18">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>20</y>
+        <width>201</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_19">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>20</y>
+        <width>201</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_20">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>20</y>
+        <width>201</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_21">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>670</y>
+        <width>951</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <zorder>frame_21</zorder>
+     <zorder>frame_20</zorder>
+     <zorder>frame_19</zorder>
+     <zorder>frame_18</zorder>
+     <zorder>frame_17</zorder>
+     <zorder>frame_16</zorder>
+     <zorder>frame_15</zorder>
+     <zorder>DO14_2</zorder>
+     <zorder>label_170</zorder>
+     <zorder>label_172</zorder>
+     <zorder>DO31_2</zorder>
+     <zorder>label_173</zorder>
+     <zorder>label_175</zorder>
+     <zorder>DO19_2</zorder>
+     <zorder>label_177</zorder>
+     <zorder>btnDO3_2</zorder>
+     <zorder>label_178</zorder>
+     <zorder>btn51_2</zorder>
+     <zorder>label_179</zorder>
+     <zorder>label_180</zorder>
+     <zorder>DO42_2</zorder>
+     <zorder>btn61_2</zorder>
+     <zorder>DO16_2</zorder>
+     <zorder>btnDO12_2</zorder>
+     <zorder>DO25_2</zorder>
+     <zorder>btnDO32_2</zorder>
+     <zorder>label_181</zorder>
+     <zorder>label_182</zorder>
+     <zorder>DO50_2</zorder>
+     <zorder>label_183</zorder>
+     <zorder>btn41_2</zorder>
+     <zorder>btnDO31_2</zorder>
+     <zorder>DO37_2</zorder>
+     <zorder>label_184</zorder>
+     <zorder>label_185</zorder>
+     <zorder>DO47_2</zorder>
+     <zorder>btnDO24_2</zorder>
+     <zorder>label_186</zorder>
+     <zorder>label_187</zorder>
+     <zorder>label_188</zorder>
+     <zorder>label_189</zorder>
+     <zorder>label_190</zorder>
+     <zorder>label_191</zorder>
+     <zorder>DO24_2</zorder>
+     <zorder>DO30_2</zorder>
+     <zorder>label_192</zorder>
+     <zorder>btnDO19_2</zorder>
+     <zorder>label_193</zorder>
+     <zorder>label_194</zorder>
+     <zorder>DO64_2</zorder>
+     <zorder>DO22_2</zorder>
+     <zorder>btn42_2</zorder>
+     <zorder>btnDO9_2</zorder>
+     <zorder>label_195</zorder>
+     <zorder>label_196</zorder>
+     <zorder>DO41_2</zorder>
+     <zorder>btn48_2</zorder>
+     <zorder>btnDO18_2</zorder>
+     <zorder>DO23_2</zorder>
+     <zorder>DO58_2</zorder>
+     <zorder>label_197</zorder>
+     <zorder>btn46_2</zorder>
+     <zorder>label_198</zorder>
+     <zorder>label_199</zorder>
+     <zorder>btnDO2_2</zorder>
+     <zorder>btn54_2</zorder>
+     <zorder>DO56_2</zorder>
+     <zorder>DO8_2</zorder>
+     <zorder>label_200</zorder>
+     <zorder>btnDO27_2</zorder>
+     <zorder>btnDO29_2</zorder>
+     <zorder>label_201</zorder>
+     <zorder>btnDO4_2</zorder>
+     <zorder>label_202</zorder>
+     <zorder>btn60_2</zorder>
+     <zorder>DO10_2</zorder>
+     <zorder>DO15_2</zorder>
+     <zorder>btnDO14_2</zorder>
+     <zorder>label_203</zorder>
+     <zorder>label_204</zorder>
+     <zorder>label_205</zorder>
+     <zorder>btnDO40_2</zorder>
+     <zorder>btnDO35_2</zorder>
+     <zorder>btn49_2</zorder>
+     <zorder>btnDO1_2</zorder>
+     <zorder>btnDO26_2</zorder>
+     <zorder>label_206</zorder>
+     <zorder>DO21_2</zorder>
+     <zorder>label_207</zorder>
+     <zorder>label_208</zorder>
+     <zorder>btnDO6_2</zorder>
+     <zorder>btn57_2</zorder>
+     <zorder>DO32_2</zorder>
+     <zorder>DO57_2</zorder>
+     <zorder>DO20_2</zorder>
+     <zorder>btn58_2</zorder>
+     <zorder>btnDO36_2</zorder>
+     <zorder>DO13_2</zorder>
+     <zorder>DO36_2</zorder>
+     <zorder>btn62_2</zorder>
+     <zorder>DO34_2</zorder>
+     <zorder>label_209</zorder>
+     <zorder>DO33_2</zorder>
+     <zorder>DO18_2</zorder>
+     <zorder>btn47_2</zorder>
+     <zorder>label_210</zorder>
+     <zorder>DO53_2</zorder>
+     <zorder>label_211</zorder>
+     <zorder>btn59_2</zorder>
+     <zorder>DO46_2</zorder>
+     <zorder>btn63_2</zorder>
+     <zorder>DO27_2</zorder>
+     <zorder>btn53_2</zorder>
+     <zorder>label_212</zorder>
+     <zorder>DO39_2</zorder>
+     <zorder>btnDO34_2</zorder>
+     <zorder>btn44_2</zorder>
+     <zorder>btnDO11_2</zorder>
+     <zorder>DO40_2</zorder>
+     <zorder>DO59_2</zorder>
+     <zorder>DO3_2</zorder>
+     <zorder>DO35_2</zorder>
+     <zorder>label_213</zorder>
+     <zorder>DO2_2</zorder>
+     <zorder>btnDO13_2</zorder>
+     <zorder>btnDO23_2</zorder>
+     <zorder>btnDO25_2</zorder>
+     <zorder>label_214</zorder>
+     <zorder>DO6_2</zorder>
+     <zorder>label_215</zorder>
+     <zorder>label_216</zorder>
+     <zorder>label_217</zorder>
+     <zorder>btnDO21_2</zorder>
+     <zorder>DO60_2</zorder>
+     <zorder>DO29_2</zorder>
+     <zorder>DO28_2</zorder>
+     <zorder>DO63_2</zorder>
+     <zorder>DO54_2</zorder>
+     <zorder>label_218</zorder>
+     <zorder>label_219</zorder>
+     <zorder>DO51_2</zorder>
+     <zorder>btnDO17_2</zorder>
+     <zorder>label_220</zorder>
+     <zorder>DO4_2</zorder>
+     <zorder>btn50_2</zorder>
+     <zorder>label_221</zorder>
+     <zorder>DO11_2</zorder>
+     <zorder>DO1_2</zorder>
+     <zorder>label_222</zorder>
+     <zorder>label_223</zorder>
+     <zorder>DO38_2</zorder>
+     <zorder>label_224</zorder>
+     <zorder>DO43_2</zorder>
+     <zorder>btn43_2</zorder>
+     <zorder>btnDO30_2</zorder>
+     <zorder>label_225</zorder>
+     <zorder>btnDO15_2</zorder>
+     <zorder>btnDO33_2</zorder>
+     <zorder>label_226</zorder>
+     <zorder>label_227</zorder>
+     <zorder>btnDO37_2</zorder>
+     <zorder>btn55_2</zorder>
+     <zorder>label_228</zorder>
+     <zorder>btn45_2</zorder>
+     <zorder>label_229</zorder>
+     <zorder>label_230</zorder>
+     <zorder>btnDO39_2</zorder>
+     <zorder>DO5_2</zorder>
+     <zorder>DO48_2</zorder>
+     <zorder>DO17_2</zorder>
+     <zorder>DO12_2</zorder>
+     <zorder>btn56_2</zorder>
+     <zorder>btnDO28_2</zorder>
+     <zorder>DO61_2</zorder>
+     <zorder>label_231</zorder>
+     <zorder>DO44_2</zorder>
+     <zorder>btnDO22_2</zorder>
+     <zorder>btnDO20_2</zorder>
+     <zorder>DO55_2</zorder>
+     <zorder>btnDO10_2</zorder>
+     <zorder>label_232</zorder>
+     <zorder>btnDO8_2</zorder>
+     <zorder>btnDO7_2</zorder>
+     <zorder>DO7_2</zorder>
+     <zorder>label_233</zorder>
+     <zorder>btnDO5_2</zorder>
+     <zorder>DO45_2</zorder>
+     <zorder>btnDO16_2</zorder>
+     <zorder>DO52_2</zorder>
+     <zorder>label_234</zorder>
+     <zorder>DO9_2</zorder>
+     <zorder>btnDO38_2</zorder>
+     <zorder>DO49_2</zorder>
+     <zorder>label_235</zorder>
+     <zorder>label_236</zorder>
+     <zorder>btn52_2</zorder>
+     <zorder>DO62_2</zorder>
+     <zorder>btn64_2</zorder>
+     <zorder>DO26_2</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
-      <string>Page</string>
+      <string>CCUFCU-DI</string>
      </attribute>
      <widget class="QLabel" name="label_25">
       <property name="geometry">
@@ -15877,10 +16839,453 @@ border-radius:20px;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
+     <widget class="QFrame" name="frame_22">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_23">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_24">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_25">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_26">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_27">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_28">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_29">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_30">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_31">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_32">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_33">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_34">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>10</y>
+        <width>141</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_35">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>141</width>
+         <height>691</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid #3498db;
+                     border-radius: 10px;
+                     background-color: #ecf0f1;
+                     padding: 5px;  </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <zorder>frame_34</zorder>
+     <zorder>frame_32</zorder>
+     <zorder>frame_30</zorder>
+     <zorder>frame_28</zorder>
+     <zorder>frame_26</zorder>
+     <zorder>frame_24</zorder>
+     <zorder>frame_22</zorder>
+     <zorder>label_25</zorder>
+     <zorder>DI20_2</zorder>
+     <zorder>label_26</zorder>
+     <zorder>DI60_2</zorder>
+     <zorder>DI44_2</zorder>
+     <zorder>DI26_2</zorder>
+     <zorder>DI23_2</zorder>
+     <zorder>DI2_2</zorder>
+     <zorder>label_237</zorder>
+     <zorder>DI61_2</zorder>
+     <zorder>label_27</zorder>
+     <zorder>DI40_2</zorder>
+     <zorder>label_238</zorder>
+     <zorder>label_239</zorder>
+     <zorder>DI51_2</zorder>
+     <zorder>DI8_2</zorder>
+     <zorder>label_240</zorder>
+     <zorder>label_28</zorder>
+     <zorder>label_29</zorder>
+     <zorder>DI53_2</zorder>
+     <zorder>label_241</zorder>
+     <zorder>DI11_2</zorder>
+     <zorder>DI38_2</zorder>
+     <zorder>label_242</zorder>
+     <zorder>DI52_2</zorder>
+     <zorder>label_243</zorder>
+     <zorder>DI39_2</zorder>
+     <zorder>label_244</zorder>
+     <zorder>DI21_2</zorder>
+     <zorder>label_245</zorder>
+     <zorder>DI16_2</zorder>
+     <zorder>label_246</zorder>
+     <zorder>DI4_2</zorder>
+     <zorder>DI6_2</zorder>
+     <zorder>label_30</zorder>
+     <zorder>label_247</zorder>
+     <zorder>label_248</zorder>
+     <zorder>DI57_2</zorder>
+     <zorder>label_249</zorder>
+     <zorder>label_250</zorder>
+     <zorder>DI43_2</zorder>
+     <zorder>label_251</zorder>
+     <zorder>label_252</zorder>
+     <zorder>label_253</zorder>
+     <zorder>DI14_2</zorder>
+     <zorder>DI58_2</zorder>
+     <zorder>label_254</zorder>
+     <zorder>DI45_2</zorder>
+     <zorder>label_31</zorder>
+     <zorder>DI32_2</zorder>
+     <zorder>DI50_2</zorder>
+     <zorder>label_32</zorder>
+     <zorder>label_255</zorder>
+     <zorder>DI35_2</zorder>
+     <zorder>label_256</zorder>
+     <zorder>DI24_2</zorder>
+     <zorder>DI47_2</zorder>
+     <zorder>label_33</zorder>
+     <zorder>label_34</zorder>
+     <zorder>label_257</zorder>
+     <zorder>DI46_2</zorder>
+     <zorder>DI56_2</zorder>
+     <zorder>DI63_2</zorder>
+     <zorder>DI27_2</zorder>
+     <zorder>DI10_2</zorder>
+     <zorder>label_258</zorder>
+     <zorder>label_259</zorder>
+     <zorder>DI22_2</zorder>
+     <zorder>label_260</zorder>
+     <zorder>DI54_2</zorder>
+     <zorder>DI1_2</zorder>
+     <zorder>label_261</zorder>
+     <zorder>DI12_2</zorder>
+     <zorder>label_262</zorder>
+     <zorder>label_263</zorder>
+     <zorder>label_264</zorder>
+     <zorder>label_265</zorder>
+     <zorder>DI9_2</zorder>
+     <zorder>label_266</zorder>
+     <zorder>label_267</zorder>
+     <zorder>DI48_2</zorder>
+     <zorder>DI7_2</zorder>
+     <zorder>label_268</zorder>
+     <zorder>DI42_2</zorder>
+     <zorder>DI3_2</zorder>
+     <zorder>DI25_2</zorder>
+     <zorder>label_269</zorder>
+     <zorder>DI17_2</zorder>
+     <zorder>label_270</zorder>
+     <zorder>DI49_2</zorder>
+     <zorder>label_271</zorder>
+     <zorder>DI64_2</zorder>
+     <zorder>label_272</zorder>
+     <zorder>label_273</zorder>
+     <zorder>label_274</zorder>
+     <zorder>DI33_2</zorder>
+     <zorder>label_275</zorder>
+     <zorder>DI13_2</zorder>
+     <zorder>label_276</zorder>
+     <zorder>DI29_2</zorder>
+     <zorder>DI15_2</zorder>
+     <zorder>DI41_2</zorder>
+     <zorder>label_277</zorder>
+     <zorder>label_278</zorder>
+     <zorder>DI34_2</zorder>
+     <zorder>label_279</zorder>
+     <zorder>DI5_2</zorder>
+     <zorder>label_280</zorder>
+     <zorder>label_281</zorder>
+     <zorder>label_282</zorder>
+     <zorder>label_283</zorder>
+     <zorder>label_284</zorder>
+     <zorder>DI31_2</zorder>
+     <zorder>DI19_2</zorder>
+     <zorder>label_285</zorder>
+     <zorder>label_286</zorder>
+     <zorder>label_287</zorder>
+     <zorder>DI28_2</zorder>
+     <zorder>DI37_2</zorder>
+     <zorder>DI36_2</zorder>
+     <zorder>label_288</zorder>
+     <zorder>DI55_2</zorder>
+     <zorder>label_289</zorder>
+     <zorder>DI30_2</zorder>
+     <zorder>DI59_2</zorder>
+     <zorder>label_290</zorder>
+     <zorder>DI18_2</zorder>
+     <zorder>DI62_2</zorder>
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
-      <string>Page</string>
+      <string>CCUFCU-AI</string>
      </attribute>
      <widget class="QLineEdit" name="txtAI7_2">
       <property name="geometry">
@@ -16213,7 +17618,7 @@ border-radius:20px;
     </widget>
     <widget class="QWidget" name="tab_6">
      <attribute name="title">
-      <string>Page</string>
+      <string>CCUFCU-AO</string>
      </attribute>
      <widget class="QLineEdit" name="txtAO7_2">
       <property name="geometry">
