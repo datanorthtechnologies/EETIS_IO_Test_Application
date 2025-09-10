@@ -7,8 +7,8 @@
 #include <QTimer>
 
 //plc comm
-#define IP_ADDR                     "192.168.0.10"
-//#define IP_ADDR                     "127.0.0.7"
+//#define IP_ADDR                     "192.168.0.10"
+#define IP_ADDR                     "127.0.0.7"
 #define PORT_NUM                    502
 #define SLAVE_ADDRESS               0
 #define WRITE_SINGLE_REG            6

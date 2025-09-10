@@ -96,6 +96,70 @@ void MainWindow::addToList()
     DIList.append(ui->DI62);
     DIList.append(ui->DI63);
     DIList.append(ui->DI64);
+    DIList.append(ui->DI65);
+    DIList.append(ui->DI66);
+    DIList.append(ui->DI67);
+    DIList.append(ui->DI68);
+    DIList.append(ui->DI69);
+    DIList.append(ui->DI70);
+    DIList.append(ui->DI71);
+    DIList.append(ui->DI72);
+    DIList.append(ui->DI73);
+    DIList.append(ui->DI74);
+    DIList.append(ui->DI75);
+    DIList.append(ui->DI76);
+    DIList.append(ui->DI77);
+    DIList.append(ui->DI78);
+    DIList.append(ui->DI79);
+    DIList.append(ui->DI80);
+    DIList.append(ui->DI81);
+    DIList.append(ui->DI82);
+    DIList.append(ui->DI83);
+    DIList.append(ui->DI84);
+    DIList.append(ui->DI85);
+    DIList.append(ui->DI86);
+    DIList.append(ui->DI87);
+    DIList.append(ui->DI88);
+    DIList.append(ui->DI89);
+    DIList.append(ui->DI90);
+    DIList.append(ui->DI91);
+    DIList.append(ui->DI92);
+    DIList.append(ui->DI93);
+    DIList.append(ui->DI94);
+    DIList.append(ui->DI95);
+    DIList.append(ui->DI96);
+    DIList.append(ui->DI97);
+    DIList.append(ui->DI98);
+    DIList.append(ui->DI99);
+    DIList.append(ui->DI100);
+    DIList.append(ui->DI101);
+    DIList.append(ui->DI102);
+    DIList.append(ui->DI103);
+    DIList.append(ui->DI104);
+    DIList.append(ui->DI105);
+    DIList.append(ui->DI106);
+    DIList.append(ui->DI107);
+    DIList.append(ui->DI108);
+    DIList.append(ui->DI109);
+    DIList.append(ui->DI110);
+    DIList.append(ui->DI111);
+    DIList.append(ui->DI112);
+    DIList.append(ui->DI113);
+    DIList.append(ui->DI114);
+    DIList.append(ui->DI115);
+    DIList.append(ui->DI116);
+    DIList.append(ui->DI117);
+    DIList.append(ui->DI118);
+    DIList.append(ui->DI119);
+    DIList.append(ui->DI120);
+    DIList.append(ui->DI121);
+    DIList.append(ui->DI122);
+    DIList.append(ui->DI123);
+    DIList.append(ui->DI124);
+    DIList.append(ui->DI125);
+    DIList.append(ui->DI126);
+    DIList.append(ui->DI127);
+    DIList.append(ui->DI128);
 
 }
 
@@ -233,6 +297,71 @@ void MainWindow::addDOToList()
     DOList.append(ui->DO62);
     DOList.append(ui->DO63);
     DOList.append(ui->DO64);
+    DOList.append(ui->DO65);
+    DOList.append(ui->DO66);
+    DOList.append(ui->DO67);
+    DOList.append(ui->DO68);
+    DOList.append(ui->DO69);
+    DOList.append(ui->DO70);
+    DOList.append(ui->DO71);
+    DOList.append(ui->DO72);
+    DOList.append(ui->DO73);
+    DOList.append(ui->DO74);
+    DOList.append(ui->DO75);
+    DOList.append(ui->DO76);
+    DOList.append(ui->DO77);
+    DOList.append(ui->DO78);
+    DOList.append(ui->DO79);
+    DOList.append(ui->DO80);
+    DOList.append(ui->DO81);
+    DOList.append(ui->DO82);
+    DOList.append(ui->DO83);
+    DOList.append(ui->DO84);
+    DOList.append(ui->DO85);
+    DOList.append(ui->DO86);
+    DOList.append(ui->DO87);
+    DOList.append(ui->DO88);
+    DOList.append(ui->DO89);
+    DOList.append(ui->DO90);
+    DOList.append(ui->DO91);
+    DOList.append(ui->DO92);
+    DOList.append(ui->DO93);
+    DOList.append(ui->DO94);
+    DOList.append(ui->DO95);
+    DOList.append(ui->DO96);
+    DOList.append(ui->DO97);
+    DOList.append(ui->DO98);
+    DOList.append(ui->DO99);
+    DOList.append(ui->DO100);
+    DOList.append(ui->DO101);
+    DOList.append(ui->DO102);
+    DOList.append(ui->DO103);
+    DOList.append(ui->DO104);
+    DOList.append(ui->DO105);
+    DOList.append(ui->DO106);
+    DOList.append(ui->DO107);
+    DOList.append(ui->DO108);
+    DOList.append(ui->DO109);
+    DOList.append(ui->DO110);
+    DOList.append(ui->DO111);
+    DOList.append(ui->DO112);
+    DOList.append(ui->DO113);
+    DOList.append(ui->DO114);
+    DOList.append(ui->DO115);
+    DOList.append(ui->DO116);
+    DOList.append(ui->DO117);
+    DOList.append(ui->DO118);
+    DOList.append(ui->DO119);
+    DOList.append(ui->DO120);
+    DOList.append(ui->DO121);
+    DOList.append(ui->DO122);
+    DOList.append(ui->DO123);
+    DOList.append(ui->DO124);
+    DOList.append(ui->DO125);
+    DOList.append(ui->DO126);
+    DOList.append(ui->DO127);
+    DOList.append(ui->DO128);
+
 
 }
 
@@ -544,6 +673,20 @@ void MainWindow::addAIToListFCU()
 
 }
 
+void MainWindow::toggleDo(int channel, QPushButton *button)
+{  if (plcCommObj->getDoValue(channel) == 0)
+    {
+        plcCommObj->setDoValue(channel, 1);
+        button->setText("ON");
+    }
+    else
+    {
+        plcCommObj->setDoValue(channel, 0);
+        button->setText("OFF");
+    }
+
+}
+
 void MainWindow::update()
 {
     updateDI();
@@ -563,11 +706,11 @@ void MainWindow::updateDO()
     {
         if(plcCommObj->getDoValue(i) == 1)
         {
-            DOList[i -1]->setStyleSheet("background-color: green;border-radius:20px;");
+            DOList[i -1]->setStyleSheet("background-color: green;border-radius:15px;");
         }
         else
         {
-            DOList[i - 1]->setStyleSheet("background-color: red;border-radius:20px;");
+            DOList[i - 1]->setStyleSheet("background-color: red;border-radius:15px;");
         }
     }
 }
@@ -707,954 +850,147 @@ void MainWindow::updateLink()
 
 }
 
-void MainWindow::on_btnDO1_clicked()
-{
-    if(plcCommObj->getDoValue(1) == 0)
-    {
-        plcCommObj->setDoValue(1,1);
-        ui->btnDO1->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(1,0);
-        ui->btnDO1->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO2_clicked()
-{
-    if(plcCommObj->getDoValue(2) == 0)
-    {
-        plcCommObj->setDoValue(2,1);
-        ui->btnDO2->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(2,0);
-        ui->btnDO2->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO3_clicked()
-{
-    if(plcCommObj->getDoValue(3) == 0)
-    {
-        plcCommObj->setDoValue(3,1);
-        ui->btnDO3->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(3,0);
-        ui->btnDO3->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO4_clicked()
-{
-    if(plcCommObj->getDoValue(4) == 0)
-    {
-        plcCommObj->setDoValue(4,1);
-        ui->btnDO4->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(4,0);
-        ui->btnDO4->setText("OFF");
-    }
-}
-
-// Functions from 5 to 64
-
-void MainWindow::on_btnDO5_clicked()
-{
-    if(plcCommObj->getDoValue(5) == 0)
-    {
-        plcCommObj->setDoValue(5,1);
-        ui->btnDO5->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(5,0);
-        ui->btnDO5->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO6_clicked()
-{
-    if(plcCommObj->getDoValue(6) == 0)
-    {
-        plcCommObj->setDoValue(6,1);
-        ui->btnDO6->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(6,0);
-        ui->btnDO6->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO7_clicked()
-{
-    if(plcCommObj->getDoValue(7) == 0)
-    {
-        plcCommObj->setDoValue(7,1);
-        ui->btnDO7->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(7,0);
-        ui->btnDO7->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO8_clicked()
-{
-    if(plcCommObj->getDoValue(8) == 0)
-    {
-        plcCommObj->setDoValue(8,1);
-        ui->btnDO8->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(8,0);
-        ui->btnDO8->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO9_clicked()
-{
-    if(plcCommObj->getDoValue(9) == 0)
-    {
-        plcCommObj->setDoValue(9,1);
-        ui->btnDO9->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(9,0);
-        ui->btnDO9->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO10_clicked()
-{
-    if(plcCommObj->getDoValue(10) == 0)
-    {
-        plcCommObj->setDoValue(10,1);
-        ui->btnDO10->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(10,0);
-        ui->btnDO10->setText("OFF");
-    }
-}
-void MainWindow::on_btnDO11_clicked()
-{
-    if(plcCommObj->getDoValue(11) == 0)
-    {
-        plcCommObj->setDoValue(11,1);
-        ui->btnDO11->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(11,0);
-        ui->btnDO11->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO12_clicked()
-{
-    if(plcCommObj->getDoValue(12) == 0)
-    {
-        plcCommObj->setDoValue(12,1);
-        ui->btnDO12->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(12,0);
-        ui->btnDO12->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO13_clicked()
-{
-    if(plcCommObj->getDoValue(13) == 0)
-    {
-        plcCommObj->setDoValue(13,1);
-        ui->btnDO13->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(13,0);
-        ui->btnDO13->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO14_clicked()
-{
-    if(plcCommObj->getDoValue(14) == 0)
-    {
-        plcCommObj->setDoValue(14,1);
-        ui->btnDO14->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(14,0);
-        ui->btnDO14->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO15_clicked()
-{
-    if(plcCommObj->getDoValue(15) == 0)
-    {
-        plcCommObj->setDoValue(15,1);
-        ui->btnDO15->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(15,0);
-        ui->btnDO15->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO16_clicked()
-{
-    if(plcCommObj->getDoValue(16) == 0)
-    {
-        plcCommObj->setDoValue(16,1);
-        ui->btnDO16->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(16,0);
-        ui->btnDO16->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO17_clicked()
-{
-    if(plcCommObj->getDoValue(17) == 0)
-    {
-        plcCommObj->setDoValue(17,1);
-        ui->btnDO17->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(17,0);
-        ui->btnDO17->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO18_clicked()
-{
-    if(plcCommObj->getDoValue(18) == 0)
-    {
-        plcCommObj->setDoValue(18,1);
-        ui->btnDO18->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(18,0);
-        ui->btnDO18->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO19_clicked()
-{
-    if(plcCommObj->getDoValue(19) == 0)
-    {
-        plcCommObj->setDoValue(19,1);
-        ui->btnDO19->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(19,0);
-        ui->btnDO19->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO20_clicked()
-{
-    if(plcCommObj->getDoValue(20) == 0)
-    {
-        plcCommObj->setDoValue(20,1);
-        ui->btnDO20->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(20,0);
-        ui->btnDO20->setText("OFF");
-    }
-}
-void MainWindow::on_btnDO21_clicked()
-{
-    if(plcCommObj->getDoValue(21) == 0)
-    {
-        plcCommObj->setDoValue(21,1);
-        ui->btnDO21->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(21,0);
-        ui->btnDO21->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO22_clicked()
-{
-    if(plcCommObj->getDoValue(22) == 0)
-    {
-        plcCommObj->setDoValue(22,1);
-        ui->btnDO22->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(22,0);
-        ui->btnDO22->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO23_clicked()
-{
-    if(plcCommObj->getDoValue(23) == 0)
-    {
-        plcCommObj->setDoValue(23,1);
-        ui->btnDO23->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(23,0);
-        ui->btnDO23->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO24_clicked()
-{
-    if(plcCommObj->getDoValue(24) == 0)
-    {
-        plcCommObj->setDoValue(24,1);
-        ui->btnDO24->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(24,0);
-        ui->btnDO24->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO25_clicked()
-{
-    if(plcCommObj->getDoValue(25) == 0)
-    {
-        plcCommObj->setDoValue(25,1);
-        ui->btnDO25->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(25,0);
-        ui->btnDO25->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO26_clicked()
-{
-    if(plcCommObj->getDoValue(26) == 0)
-    {
-        plcCommObj->setDoValue(26,1);
-        ui->btnDO26->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(26,0);
-        ui->btnDO26->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO27_clicked()
-{
-    if(plcCommObj->getDoValue(27) == 0)
-    {
-        plcCommObj->setDoValue(27,1);
-        ui->btnDO27->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(27,0);
-        ui->btnDO27->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO28_clicked()
-{
-    if(plcCommObj->getDoValue(28) == 0)
-    {
-        plcCommObj->setDoValue(28,1);
-        ui->btnDO28->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(28,0);
-        ui->btnDO28->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO29_clicked()
-{
-    if(plcCommObj->getDoValue(29) == 0)
-    {
-        plcCommObj->setDoValue(29,1);
-        ui->btnDO29->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(29,0);
-        ui->btnDO29->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO30_clicked()
-{
-    if(plcCommObj->getDoValue(30) == 0)
-    {
-        plcCommObj->setDoValue(30,1);
-        ui->btnDO30->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(30,0);
-        ui->btnDO30->setText("OFF");
-    }
-}
-void MainWindow::on_btnDO31_clicked()
-{
-    if(plcCommObj->getDoValue(31) == 0)
-    {
-        plcCommObj->setDoValue(31,1);
-        ui->btnDO31->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(31,0);
-        ui->btnDO31->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO32_clicked()
-{
-    if(plcCommObj->getDoValue(32) == 0)
-    {
-        plcCommObj->setDoValue(32,1);
-        ui->btnDO32->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(32,0);
-        ui->btnDO32->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO33_clicked()
-{
-    if(plcCommObj->getDoValue(33) == 0)
-    {
-        plcCommObj->setDoValue(33,1);
-        ui->btnDO33->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(33,0);
-        ui->btnDO33->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO34_clicked()
-{
-    if(plcCommObj->getDoValue(34) == 0)
-    {
-        plcCommObj->setDoValue(34,1);
-        ui->btnDO34->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(34,0);
-        ui->btnDO34->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO35_clicked()
-{
-    if(plcCommObj->getDoValue(35) == 0)
-    {
-        plcCommObj->setDoValue(35,1);
-        ui->btnDO35->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(35,0);
-        ui->btnDO35->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO36_clicked()
-{
-    if(plcCommObj->getDoValue(36) == 0)
-    {
-        plcCommObj->setDoValue(36,1);
-        ui->btnDO36->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(36,0);
-        ui->btnDO36->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO37_clicked()
-{
-    if(plcCommObj->getDoValue(37) == 0)
-    {
-        plcCommObj->setDoValue(37,1);
-        ui->btnDO37->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(37,0);
-        ui->btnDO37->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO38_clicked()
-{
-    if(plcCommObj->getDoValue(38) == 0)
-    {
-        plcCommObj->setDoValue(38,1);
-        ui->btnDO38->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(38,0);
-        ui->btnDO38->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO39_clicked()
-{
-    if(plcCommObj->getDoValue(39) == 0)
-    {
-        plcCommObj->setDoValue(39,1);
-        ui->btnDO39->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(39,0);
-        ui->btnDO39->setText("OFF");
-    }
-}
-
-void MainWindow::on_btnDO40_clicked()
-{
-    if(plcCommObj->getDoValue(40) == 0)
-    {
-        plcCommObj->setDoValue(40,1);
-        ui->btnDO40->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(40,0);
-        ui->btnDO40->setText("OFF");
-    }
-}
-
+void MainWindow::on_btnDO1_clicked() { toggleDo(1, ui->btnDO1); }
+void MainWindow::on_btnDO2_clicked() { toggleDo(2, ui->btnDO2); }
+void MainWindow::on_btnDO3_clicked() { toggleDo(3, ui->btnDO3); }
+void MainWindow::on_btnDO4_clicked() { toggleDo(4, ui->btnDO4); }
+void MainWindow::on_btnDO5_clicked() { toggleDo(5, ui->btnDO5); }
+void MainWindow::on_btnDO6_clicked() { toggleDo(6, ui->btnDO6); }
+void MainWindow::on_btnDO7_clicked() { toggleDo(7, ui->btnDO7); }
+void MainWindow::on_btnDO8_clicked() { toggleDo(8, ui->btnDO8); }
+void MainWindow::on_btnDO9_clicked() { toggleDo(9, ui->btnDO9); }
+void MainWindow::on_btnDO10_clicked() { toggleDo(10, ui->btnDO10); }
+void MainWindow::on_btnDO11_clicked() { toggleDo(11, ui->btnDO11); }
+void MainWindow::on_btnDO12_clicked() { toggleDo(12, ui->btnDO12); }
+void MainWindow::on_btnDO13_clicked() { toggleDo(13, ui->btnDO13); }
+void MainWindow::on_btnDO14_clicked() { toggleDo(14, ui->btnDO14); }
+void MainWindow::on_btnDO15_clicked() { toggleDo(15, ui->btnDO15); }
+void MainWindow::on_btnDO16_clicked() { toggleDo(16, ui->btnDO16); }
+void MainWindow::on_btnDO17_clicked() { toggleDo(17, ui->btnDO17); }
+void MainWindow::on_btnDO18_clicked() { toggleDo(18, ui->btnDO18); }
+void MainWindow::on_btnDO19_clicked() { toggleDo(19, ui->btnDO19); }
+void MainWindow::on_btnDO20_clicked() { toggleDo(20, ui->btnDO20); }
+void MainWindow::on_btnDO21_clicked() { toggleDo(21, ui->btnDO21); }
+void MainWindow::on_btnDO22_clicked() { toggleDo(22, ui->btnDO22); }
+void MainWindow::on_btnDO23_clicked() { toggleDo(23, ui->btnDO23); }
+void MainWindow::on_btnDO24_clicked() { toggleDo(24, ui->btnDO24); }
+void MainWindow::on_btnDO25_clicked() { toggleDo(25, ui->btnDO25); }
+void MainWindow::on_btnDO26_clicked() { toggleDo(26, ui->btnDO26); }
+void MainWindow::on_btnDO27_clicked() { toggleDo(27, ui->btnDO27); }
+void MainWindow::on_btnDO28_clicked() { toggleDo(28, ui->btnDO28); }
+void MainWindow::on_btnDO29_clicked() { toggleDo(29, ui->btnDO29); }
+void MainWindow::on_btnDO30_clicked() { toggleDo(30, ui->btnDO30); }
+void MainWindow::on_btnDO31_clicked() { toggleDo(31, ui->btnDO31); }
+void MainWindow::on_btnDO32_clicked() { toggleDo(32, ui->btnDO32); }
+void MainWindow::on_btnDO33_clicked() { toggleDo(33, ui->btnDO33); }
+void MainWindow::on_btnDO34_clicked() { toggleDo(34, ui->btnDO34); }
+void MainWindow::on_btnDO35_clicked() { toggleDo(35, ui->btnDO35); }
+void MainWindow::on_btnDO36_clicked() { toggleDo(36, ui->btnDO36); }
+void MainWindow::on_btnDO37_clicked() { toggleDo(37, ui->btnDO37); }
+void MainWindow::on_btnDO38_clicked() { toggleDo(38, ui->btnDO38); }
+void MainWindow::on_btnDO39_clicked() { toggleDo(39, ui->btnDO39); }
+void MainWindow::on_btnDO40_clicked() { toggleDo(40, ui->btnDO40); }
 
 void MainWindow::on_pushButton_clicked()
 {
-    QString AO1 = ui->txtAO1->text();
-    int AO1send = AO1.toInt();
-    plcCommObj->setAoValue(1, AO1send);
 
-    QString AO2 = ui->txtAO2->text();
-    int AO2send = AO2.toInt();
-    plcCommObj->setAoValue(2, AO2send);
-
-    QString AO3 = ui->txtAO3->text();
-    int AO3send = AO3.toInt();
-    plcCommObj->setAoValue(3, AO3send);
-
-    QString AO4 = ui->txtAO4->text();
-    int AO4send = AO4.toInt();
-    plcCommObj->setAoValue(4, AO4send);
-
-    QString AO5 = ui->txtAO5->text();
-    int AO5send = AO5.toInt();
-    plcCommObj->setAoValue(5, AO5send);
-
-    QString AO6 = ui->txtAO6->text();
-    int AO6send = AO6.toInt();
-    plcCommObj->setAoValue(6, AO6send);
-
-    QString AO7 = ui->txtAO7->text();
-    int AO7send = AO7.toInt();
-    plcCommObj->setAoValue(7, AO7send);
-
-    QString AO8 = ui->txtAO8->text();
-    int AO8send = AO8.toInt();
-    plcCommObj->setAoValue(8, AO8send);
-
-    QString AO9 = ui->txtAO9->text();
-    int AO9send = AO9.toInt();
-    plcCommObj->setAoValue(9, AO9send);
-
-    QString AO10 = ui->txtAO10->text();
-    int AO10send = AO10.toInt();
-    plcCommObj->setAoValue(9, AO10send);
 }
+void MainWindow::on_btn41_clicked() { toggleDo(41, ui->btn41); }
+void MainWindow::on_btn42_clicked() { toggleDo(42, ui->btn42); }
+void MainWindow::on_btn43_clicked() { toggleDo(43, ui->btn43); }
+void MainWindow::on_btn44_clicked() { toggleDo(44, ui->btn44); }
+void MainWindow::on_btn45_clicked() { toggleDo(45, ui->btn45); }
+void MainWindow::on_btn46_clicked() { toggleDo(46, ui->btn46); }
+void MainWindow::on_btn47_clicked() { toggleDo(47, ui->btn47); }
+void MainWindow::on_btn48_clicked() { toggleDo(48, ui->btn48); }
+void MainWindow::on_btn49_clicked() { toggleDo(49, ui->btn49); }
+void MainWindow::on_btn50_clicked() { toggleDo(50, ui->btn50); }
+void MainWindow::on_btn51_clicked() { toggleDo(51, ui->btn51); }
+void MainWindow::on_btn52_clicked() { toggleDo(52, ui->btn52); }
+void MainWindow::on_btn53_clicked() { toggleDo(53, ui->btn53); }
+void MainWindow::on_btn54_clicked() { toggleDo(54, ui->btn54); }
+void MainWindow::on_btn55_clicked() { toggleDo(55, ui->btn55); }
+void MainWindow::on_btn56_clicked() { toggleDo(56, ui->btn56); }
+void MainWindow::on_btn57_clicked() { toggleDo(57, ui->btn57); }
+void MainWindow::on_btn58_clicked() { toggleDo(58, ui->btn58); }
+void MainWindow::on_btn59_clicked() { toggleDo(59, ui->btn59); }
+void MainWindow::on_btn60_clicked() { toggleDo(60, ui->btn60); }
+void MainWindow::on_btn61_clicked() { toggleDo(61, ui->btn61); }
+void MainWindow::on_btn62_clicked() { toggleDo(62, ui->btn62); }
+void MainWindow::on_btn63_clicked() { toggleDo(63, ui->btn63); }
+void MainWindow::on_btn64_clicked() { toggleDo(64, ui->btn64); }
+void MainWindow::on_btn65_clicked() { toggleDo(65, ui->btn65); }
+void MainWindow::on_btn66_clicked() { toggleDo(66, ui->btn66); }
+void MainWindow::on_btn67_clicked() { toggleDo(67, ui->btn67); }
+void MainWindow::on_btn68_clicked() { toggleDo(68, ui->btn68); }
+void MainWindow::on_btn69_clicked() { toggleDo(69, ui->btn69); }
+void MainWindow::on_btn70_clicked() { toggleDo(70, ui->btn70); }
+void MainWindow::on_btn71_clicked() { toggleDo(71, ui->btn71); }
+void MainWindow::on_btn72_clicked() { toggleDo(72, ui->btn72); }
+void MainWindow::on_btn73_clicked() { toggleDo(73, ui->btn73); }
+void MainWindow::on_btn74_clicked() { toggleDo(74, ui->btn74); }
+void MainWindow::on_btn75_clicked() { toggleDo(75, ui->btn75); }
+void MainWindow::on_btn76_clicked() { toggleDo(76, ui->btn76); }
+void MainWindow::on_btn77_clicked() { toggleDo(77, ui->btn77); }
+void MainWindow::on_btn78_clicked() { toggleDo(78, ui->btn78); }
+void MainWindow::on_btn79_clicked() { toggleDo(79, ui->btn79); }
+void MainWindow::on_btn80_clicked() { toggleDo(80, ui->btn80); }
+void MainWindow::on_btn81_clicked() { toggleDo(81, ui->btn81); }
+void MainWindow::on_btn82_clicked() { toggleDo(82, ui->btn82); }
+void MainWindow::on_btn83_clicked() { toggleDo(83, ui->btn83); }
+void MainWindow::on_btn84_clicked() { toggleDo(84, ui->btn84); }
+void MainWindow::on_btn85_clicked() { toggleDo(85, ui->btn85); }
+void MainWindow::on_btn86_clicked() { toggleDo(86, ui->btn86); }
+void MainWindow::on_btn87_clicked() { toggleDo(87, ui->btn87); }
+void MainWindow::on_btn88_clicked() { toggleDo(88, ui->btn88); }
+void MainWindow::on_btn89_clicked() { toggleDo(89, ui->btn89); }
+void MainWindow::on_btn90_clicked() { toggleDo(90, ui->btn90); }
+void MainWindow::on_btn91_clicked() { toggleDo(91, ui->btn91); }
+void MainWindow::on_btn92_clicked() { toggleDo(92, ui->btn92); }
+void MainWindow::on_btn93_clicked() { toggleDo(93, ui->btn93); }
+void MainWindow::on_btn94_clicked() { toggleDo(94, ui->btn94); }
+void MainWindow::on_btn95_clicked() { toggleDo(95, ui->btn95); }
+void MainWindow::on_btn96_clicked() { toggleDo(96, ui->btn96); }
+void MainWindow::on_btn97_clicked() { toggleDo(97, ui->btn97); }
+void MainWindow::on_btn98_clicked() { toggleDo(98, ui->btn98); }
+void MainWindow::on_btn99_clicked() { toggleDo(99, ui->btn99); }
+void MainWindow::on_btn100_clicked() { toggleDo(100, ui->btn100); }
+void MainWindow::on_btn101_clicked() { toggleDo(101, ui->btn101); }
+void MainWindow::on_btn102_clicked() { toggleDo(102, ui->btn102); }
+void MainWindow::on_btn103_clicked() { toggleDo(103, ui->btn103); }
+void MainWindow::on_btn104_clicked() { toggleDo(104, ui->btn104); }
+void MainWindow::on_btn105_clicked() { toggleDo(105, ui->btn105); }
+void MainWindow::on_btn106_clicked() { toggleDo(106, ui->btn106); }
+void MainWindow::on_btn107_clicked() { toggleDo(107, ui->btn107); }
+void MainWindow::on_btn108_clicked() { toggleDo(108, ui->btn108); }
+void MainWindow::on_btn109_clicked() { toggleDo(109, ui->btn109); }
+void MainWindow::on_btn110_clicked() { toggleDo(110, ui->btn110); }
+void MainWindow::on_btn111_clicked() { toggleDo(111, ui->btn111); }
+void MainWindow::on_btn112_clicked() { toggleDo(112, ui->btn112); }
+void MainWindow::on_btn113_clicked() { toggleDo(113, ui->btn113); }
+void MainWindow::on_btn114_clicked() { toggleDo(114, ui->btn114); }
+void MainWindow::on_btn115_clicked() { toggleDo(115, ui->btn115); }
+void MainWindow::on_btn116_clicked() { toggleDo(116, ui->btn116); }
+void MainWindow::on_btn117_clicked() { toggleDo(117, ui->btn117); }
+void MainWindow::on_btn118_clicked() { toggleDo(118, ui->btn118); }
+void MainWindow::on_btn119_clicked() { toggleDo(119, ui->btn119); }
+void MainWindow::on_btn120_clicked() { toggleDo(120, ui->btn120); }
+void MainWindow::on_btn121_clicked() { toggleDo(121, ui->btn121); }
+void MainWindow::on_btn122_clicked() { toggleDo(122, ui->btn122); }
+void MainWindow::on_btn123_clicked() { toggleDo(123, ui->btn123); }
+void MainWindow::on_btn124_clicked() { toggleDo(124, ui->btn124); }
+void MainWindow::on_btn125_clicked() { toggleDo(125, ui->btn125); }
+void MainWindow::on_btn126_clicked() { toggleDo(126, ui->btn126); }
+void MainWindow::on_btn127_clicked() { toggleDo(127, ui->btn127); }
+void MainWindow::on_btn128_clicked() { toggleDo(128, ui->btn128); }
 
-
-
-
-
-void MainWindow::on_btn41_clicked()
-{
-    if(plcCommObj->getDoValue(41) == 0)
-    {
-        plcCommObj->setDoValue(41,1);
-        ui->btn41->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(41,0);
-        ui->btn41->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn42_clicked()
-{
-    if(plcCommObj->getDoValue(42) == 0)
-    {
-        plcCommObj->setDoValue(42,1);
-        ui->btn42->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(42,0);
-        ui->btn42->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn43_clicked()
-{
-    if(plcCommObj->getDoValue(43) == 0)
-    {
-        plcCommObj->setDoValue(43,1);
-        ui->btn43->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(43,0);
-        ui->btn43->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn44_clicked()
-{
-    if(plcCommObj->getDoValue(44) == 0)
-    {
-        plcCommObj->setDoValue(44,1);
-        ui->btn44->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(44,0);
-        ui->btn44->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn45_clicked()
-{
-    if(plcCommObj->getDoValue(45) == 0)
-    {
-        plcCommObj->setDoValue(45,1);
-        ui->btn45->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(45,0);
-        ui->btn45->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn46_clicked()
-{
-    if(plcCommObj->getDoValue(46) == 0)
-    {
-        plcCommObj->setDoValue(46,1);
-        ui->btn46->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(46,0);
-        ui->btn46->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn47_clicked()
-{
-    if(plcCommObj->getDoValue(47) == 0)
-    {
-        plcCommObj->setDoValue(47,1);
-        ui->btn47->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(47,0);
-        ui->btn47->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn48_clicked()
-{
-    if(plcCommObj->getDoValue(48) == 0)
-    {
-        plcCommObj->setDoValue(48,1);
-        ui->btn48->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(48,0);
-        ui->btn48->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn49_clicked()
-{
-    if(plcCommObj->getDoValue(49) == 0)
-    {
-        plcCommObj->setDoValue(49,1);
-        ui->btn49->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(49,0);
-        ui->btn49->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn50_clicked()
-{
-    if(plcCommObj->getDoValue(50) == 0)
-    {
-        plcCommObj->setDoValue(50,1);
-        ui->btn50->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(50,0);
-        ui->btn50->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn51_clicked()
-{
-    if(plcCommObj->getDoValue(51) == 0)
-    {
-        plcCommObj->setDoValue(51,1);
-        ui->btn51->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(51,0);
-        ui->btn51->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn52_clicked()
-{
-    if(plcCommObj->getDoValue(52) == 0)
-    {
-        plcCommObj->setDoValue(52,1);
-        ui->btn52->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(52,0);
-        ui->btn52->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn53_clicked()
-{
-    if(plcCommObj->getDoValue(53) == 0)
-    {
-        plcCommObj->setDoValue(53,1);
-        ui->btn53->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(53,0);
-        ui->btn53->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn54_clicked()
-{
-    if(plcCommObj->getDoValue(54) == 0)
-    {
-        plcCommObj->setDoValue(54,1);
-        ui->btn54->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(54,0);
-        ui->btn54->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn55_clicked()
-{
-    if(plcCommObj->getDoValue(55) == 0)
-    {
-        plcCommObj->setDoValue(55,1);
-        ui->btn55->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(55,0);
-        ui->btn55->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn56_clicked()
-{
-    if(plcCommObj->getDoValue(56) == 0)
-    {
-        plcCommObj->setDoValue(56,1);
-        ui->btn56->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(56,0);
-        ui->btn56->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn57_clicked()
-{
-    if(plcCommObj->getDoValue(57) == 0)
-    {
-        plcCommObj->setDoValue(57,1);
-        ui->btn57->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(57,0);
-        ui->btn57->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn58_clicked()
-{
-    if(plcCommObj->getDoValue(58) == 0)
-    {
-        plcCommObj->setDoValue(58,1);
-        ui->btn58->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(58,0);
-        ui->btn58->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn59_clicked()
-{
-    if(plcCommObj->getDoValue(59) == 0)
-    {
-        plcCommObj->setDoValue(59,1);
-        ui->btn59->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(59,0);
-        ui->btn59->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn60_clicked()
-{
-    if(plcCommObj->getDoValue(60) == 0)
-    {
-        plcCommObj->setDoValue(60,1);
-        ui->btn60->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(60,0);
-        ui->btn60->setText("OFF");
-    }
-}
-void MainWindow::on_btn61_clicked()
-{
-    if(plcCommObj->getDoValue(61) == 0)
-    {
-        plcCommObj->setDoValue(61,1);
-        ui->btn61->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(61,0);
-        ui->btn61->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn62_clicked()
-{
-    if(plcCommObj->getDoValue(62) == 0)
-    {
-        plcCommObj->setDoValue(62,1);
-        ui->btn62->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(62,0);
-        ui->btn62->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn63_clicked()
-{
-    if(plcCommObj->getDoValue(63) == 0)
-    {
-        plcCommObj->setDoValue(63,1);
-        ui->btn63->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(63,0);
-        ui->btn63->setText("OFF");
-    }
-}
-
-void MainWindow::on_btn64_clicked()
-{
-    if(plcCommObj->getDoValue(64) == 0)
-    {
-        plcCommObj->setDoValue(64,1);
-        ui->btn64->setText("ON");
-    }
-    else
-    {
-        plcCommObj->setDoValue(64,0);
-        ui->btn64->setText("OFF");
-    }
-}
 
 void MainWindow::updateBtn(int plcDoChno, QPushButton *btn)
 {
     if(btn->text() == "OFF")
     {
         fcuCommObj->writeDOToFCUCCU(plcDoChno,1);
-        DOListCCU[plcDoChno]->setStyleSheet("background-color: green;border-radius:20px;");
+        DOListCCU[plcDoChno]->setStyleSheet("background-color: green;border-radius:15px;");
         btn->setText("ON");
 
     }
@@ -1662,7 +998,7 @@ void MainWindow::updateBtn(int plcDoChno, QPushButton *btn)
     {
         fcuCommObj->writeDOToFCUCCU(plcDoChno,0);
         btn->setText("OFF");
-        DOListCCU[plcDoChno]->setStyleSheet("background-color: red;border-radius:20px;");
+        DOListCCU[plcDoChno]->setStyleSheet("background-color: red;border-radius:15px;");
 
     }
 
