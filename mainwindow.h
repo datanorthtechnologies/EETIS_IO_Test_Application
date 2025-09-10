@@ -23,17 +23,22 @@ public:
     void addCCUToList();
     void addDOToList();
     void addDOCCUToList();
+    void addDOHarnessToList();
+    void addDIHarnessToList();
     void addAIToList();
     void addAIToListFCU();
 
 protected slots:
      void update();
      void updateDO();
+     void updateDOHarness();
      void updateCCUFCUDO();
      void updateDI();
+     void updateDIHarness();
      void updateCCUFCUDI();
      void updateAI();
      void updateAIFCUCCU();
+     void updateLink();
 
 private slots:
      void on_btnDO1_clicked();
@@ -211,6 +216,7 @@ private slots:
      void on_btn64_2_clicked();
 
      void updateBtn(int plcDoChno, QPushButton *btn);
+     void updateBtnHarness(int plcDoChno, QPushButton *btn);
 
 
      void on_pushButton_2_clicked();
@@ -219,14 +225,213 @@ private slots:
 
 
 
+
+
+     void on_btnHarnessDO1_clicked();
+     
+     void on_btnHarnessDO2_clicked();
+     
+     void on_btnHarnessDO3_clicked();
+
+     void on_btnHarnessDO4_clicked();
+
+     void on_btnHarnessDO5_clicked();
+
+     void on_btnHarnessDO6_clicked();
+
+     void on_btnHarnessDO7_clicked();
+
+     void on_btnHarnessDO8_clicked();
+
+     void on_btnHarnessDO9_clicked();
+
+     void on_btnHarnessDO10_clicked();
+
+     void on_btnHarnessDO11_clicked();
+
+     void on_btnHarnessDO12_clicked();
+
+     void on_btnHarnessDO13_clicked();
+
+     void on_btnHarnessDO14_clicked();
+
+     void on_btnHarnessDO15_clicked();
+
+     void on_btnHarnessDO16_clicked();
+
+     void on_btnHarnessDO17_clicked();
+
+     void on_btnHarnessDO18_clicked();
+
+     void on_btnHarnessDO19_clicked();
+
+     void on_btnHarnessDO20_clicked();
+
+     void on_btnHarnessDO21_clicked();
+
+     void on_btnHarnessDO22_clicked();
+
+     void on_btnHarnessDO23_clicked();
+
+     void on_btnHarnessDO24_clicked();
+
+     void on_btnHarnessDO25_clicked();
+
+     void on_btnHarnessDO26_clicked();
+
+     void on_btnHarnessDO27_clicked();
+
+     void on_btnHarnessDO28_clicked();
+
+     void on_btnHarnessDO29_clicked();
+
+     void on_btnHarnessDO30_clicked();
+
+     void on_btnHarnessDO31_clicked();
+
+     void on_btnHarnessDO32_clicked();
+
+     void on_btnHarnessDO33_clicked();
+
+     void on_btnHarnessDO34_clicked();
+
+     void on_btnHarnessDO35_clicked();
+
+     void on_btnHarnessDO36_clicked();
+
+     void on_btnHarnessDO37_clicked();
+
+     void on_btnHarnessDO38_clicked();
+
+     void on_btnHarnessDO39_clicked();
+
+     void on_btnHarnessDO40_clicked();
+
+     void on_btnHarnessDO41_clicked();
+
+     void on_btnHarnessDO42_clicked();
+
+     void on_btnHarnessDO43_clicked();
+
+     void on_btnHarnessDO44_clicked();
+
+     void on_btnHarnessDO45_clicked();
+
+     void on_btnHarnessDO46_clicked();
+
+     void on_btnHarnessDO47_clicked();
+
+     void on_btnHarnessDO48_clicked();
+
+     void on_btnHarnessDO49_clicked();
+
+     void on_btnHarnessDO50_clicked();
+
+     void on_btnHarnessDO51_clicked();
+
+     void on_btnHarnessDO52_clicked();
+
+     void on_btnHarnessDO53_clicked();
+
+     void on_btnHarnessDO54_clicked();
+
+     void on_btnHarnessDO55_clicked();
+
+     void on_btnHarnessDO56_clicked();
+
+     void on_btnHarnessDO57_clicked();
+
+     void on_btnHarnessDO58_clicked();
+
+     void on_btnHarnessDO59_clicked();
+
+     void on_btnHarnessDO60_clicked();
+
+     void on_btnHarnessDO61_clicked();
+
+     void on_btnHarnessDO62_clicked();
+
+     void on_btnHarnessDO63_clicked();
+
+     void on_btnHarnessDO64_clicked();
+
+     void on_btnHarnessDO65_clicked();
+
+     void on_btnHarnessDO66_clicked();
+
+     void on_btnHarnessDO67_clicked();
+
+     void on_btnHarnessDO68_clicked();
+
+     void on_btnHarnessDO69_clicked();
+
+     void on_btnHarnessDO670_clicked();
+
+     void on_btnHarnessDO71_clicked();
+
+     void on_btnHarnessDO72_clicked();
+
+     void on_btnHarnessDO73_clicked();
+
+     void on_btnHarnessDO74_clicked();
+
+     void on_btnHarnessDO75_clicked();
+
+     void on_btnHarnessDO76_clicked();
+
+     void on_btnHarnessDO77_clicked();
+
+     void on_btnHarnessDO78_clicked();
+
+     void on_btnHarnessDO79_clicked();
+
+     void on_btnHarnessDO80_clicked();
+
+     void on_btnHarnessDO81_clicked();
+
+     void on_btnHarnessDO82_clicked();
+
+     void on_btnHarnessDO83_clicked();
+
+     void on_btnHarnessDO84_clicked();
+
+     void on_btnHarnessDO85_clicked();
+
+     void on_btnHarnessDO88_clicked();
+
+     void on_btnHarnessDO87_clicked();
+
+     void on_btnHarnessDO88_2_clicked();
+
+     void on_btnHarnessDO89_clicked();
+
+     void on_btnHarnessDO90_clicked();
+
+     void on_btnHarnessDO91_clicked();
+
+     void on_btnHarnessDO92_clicked();
+
+     void on_btnHarnessDO94_clicked();
+
+     void on_btnHarnessDO95_clicked();
+
+     void on_btnHarnessDO96_clicked();
+
+     void on_btnHarnessDO97_clicked();
+
+     void on_btnHarnessDO94_2_clicked();
+
 private:
     Ui::MainWindow *ui;
      QList<QLabel*>DIList;
+     QList<QLabel*>DIListHarness;
      QList<QLabel*>CCUDIList;
      QList<QLabel*>DOList;
      QList<QLabel*>DOListCCU;
+     QList<QLabel*>DOListHarness;
      QList<QLabel*>CCUList;
      QList<QLineEdit*>AIList;
+     QList<QLineEdit*>AIRowList;
      QList<QLineEdit*>FCUAIList;
 };
 

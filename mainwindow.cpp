@@ -15,6 +15,8 @@ MainWindow::MainWindow(QWidget *parent) :
     addDOCCUToList();
     addAIToList();
     addAIToListFCU();
+    addDOHarnessToList();
+    addDIHarnessToList();
     QTimer* timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(update()));
     timer->start(100); // Update every 1 second
@@ -302,6 +304,210 @@ void MainWindow::addDOCCUToList()
     DOListCCU.append(ui->DO64_2);
 }
 
+void MainWindow::addDOHarnessToList()
+{
+    DOListHarness.append(ui->lblHarnessDO1);
+    DOListHarness.append(ui->lblHarnessDO2);
+    DOListHarness.append(ui->lblHarnessDO2);
+    DOListHarness.append(ui->lblHarnessDO3 );
+    DOListHarness.append(ui->lblHarnessDO4 );
+    DOListHarness.append(ui->lblHarnessDO5 );
+    DOListHarness.append(ui->lblHarnessDO6 );
+    DOListHarness.append(ui->lblHarnessDO7 );
+    DOListHarness.append(ui->lblHarnessDO8 );
+    DOListHarness.append(ui->lblHarnessDO9 );
+    DOListHarness.append(ui->lblHarnessDO10);
+    DOListHarness.append(ui->lblHarnessDO11);
+    DOListHarness.append(ui->lblHarnessDO12);
+    DOListHarness.append(ui->lblHarnessDO13);
+    DOListHarness.append(ui->lblHarnessDO14);
+    DOListHarness.append(ui->lblHarnessDO15);
+    DOListHarness.append(ui->lblHarnessDO16);
+    DOListHarness.append(ui->lblHarnessDO17);
+    DOListHarness.append(ui->lblHarnessDO18);
+    DOListHarness.append(ui->lblHarnessDO19);
+    DOListHarness.append(ui->lblHarnessDO20);
+    DOListHarness.append(ui->lblHarnessDO21);
+    DOListHarness.append(ui->lblHarnessDO22);
+    DOListHarness.append(ui->lblHarnessDO23);
+    DOListHarness.append(ui->lblHarnessDO24);
+    DOListHarness.append(ui->lblHarnessDO25);
+    DOListHarness.append(ui->lblHarnessDO26);
+    DOListHarness.append(ui->lblHarnessDO27);
+    DOListHarness.append(ui->lblHarnessDO28);
+    DOListHarness.append(ui->lblHarnessDO29);
+    DOListHarness.append(ui->lblHarnessDO30);
+    DOListHarness.append(ui->lblHarnessDO31);
+    DOListHarness.append(ui->lblHarnessDO32);
+    DOListHarness.append(ui->lblHarnessDO33);
+    DOListHarness.append(ui->lblHarnessDO34);
+    DOListHarness.append(ui->lblHarnessDO35);
+    DOListHarness.append(ui->lblHarnessDO36);
+    DOListHarness.append(ui->lblHarnessDO37);
+    DOListHarness.append(ui->lblHarnessDO38);
+    DOListHarness.append(ui->lblHarnessDO39);
+    DOListHarness.append(ui->lblHarnessDO40);
+    DOListHarness.append(ui->lblHarnessDO41);
+    DOListHarness.append(ui->lblHarnessDO42);
+    DOListHarness.append(ui->blHarnessDO43);
+    DOListHarness.append(ui->blHarnessDO44);
+    DOListHarness.append(ui->blHarnessDO45);
+    DOListHarness.append(ui->blHarnessDO46);
+    DOListHarness.append(ui->blHarnessDO47);
+    DOListHarness.append(ui->blHarnessDO48);
+    DOListHarness.append(ui->blHarnessDO49);
+    DOListHarness.append(ui->blHarnessDO50);
+    DOListHarness.append(ui->blHarnessDO51);
+    DOListHarness.append(ui->blHarnessDO52);
+    DOListHarness.append(ui->blHarnessDO53);
+    DOListHarness.append(ui->blHarnessDO54);
+    DOListHarness.append(ui->blHarnessDO55);
+    DOListHarness.append(ui->blHarnessDO56);
+    DOListHarness.append(ui->blHarnessDO57);
+    DOListHarness.append(ui->blHarnessDO58);
+    DOListHarness.append(ui->blHarnessDO59);
+    DOListHarness.append(ui->blHarnessDO60);
+    DOListHarness.append(ui->blHarnessDO61);
+    DOListHarness.append(ui->blHarnessDO62);
+    DOListHarness.append(ui->blHarnessDO63);
+    DOListHarness.append(ui->blHarnessDO64);
+    DOListHarness.append(ui->blHarnessDO65);
+    DOListHarness.append(ui->blHarnessDO66);
+    DOListHarness.append(ui->blHarnessDO67);
+    DOListHarness.append(ui->blHarnessDO68);
+    DOListHarness.append(ui->blHarnessDO69);
+    DOListHarness.append(ui->blHarnessDO70);
+    DOListHarness.append(ui->blHarnessDO71);
+    DOListHarness.append(ui->blHarnessDO72);
+    DOListHarness.append(ui->blHarnessDO73);
+    DOListHarness.append(ui->blHarnessDO74);
+    DOListHarness.append(ui->blHarnessDO75);
+    DOListHarness.append(ui->blHarnessDO76);
+    DOListHarness.append(ui->blHarnessDO77);
+    DOListHarness.append(ui->blHarnessDO78);
+    DOListHarness.append(ui->blHarnessDO79);
+    DOListHarness.append(ui->blHarnessDO80);
+    DOListHarness.append(ui->blHarnessDO81);
+    DOListHarness.append(ui->blHarnessDO82);
+    DOListHarness.append(ui->blHarnessDO83);
+    DOListHarness.append(ui->blHarnessDO84);
+    DOListHarness.append(ui->blHarnessDO85);
+    DOListHarness.append(ui->blHarnessDO86);
+    DOListHarness.append(ui->blHarnessDO87);
+    DOListHarness.append(ui->blHarnessDO88);
+    DOListHarness.append(ui->blHarnessDO89);
+    DOListHarness.append(ui->blHarnessDO90);
+    DOListHarness.append(ui->blHarnessDO91);
+    DOListHarness.append(ui->blHarnessDO92);
+    DOListHarness.append(ui->blHarnessDO94);
+    DOListHarness.append(ui->blHarnessDO95);
+    DOListHarness.append(ui->blHarnessDO96);
+    DOListHarness.append(ui->blHarnessDO97);
+
+}
+
+void MainWindow::addDIHarnessToList()
+{
+    DIListHarness.append(ui->lblHarnessDI1);
+    DIListHarness.append(ui->lblHarnessDI2);
+    DIListHarness.append(ui->lblHarnessDI3);
+    DIListHarness.append(ui->lblHarnessDI4);
+    DIListHarness.append(ui->lblHarnessDI5);
+    DIListHarness.append(ui->lblHarnessDI6);
+    DIListHarness.append(ui->lblHarnessDI7);
+    DIListHarness.append(ui->lblHarnessDI8);
+    DIListHarness.append(ui->lblHarnessDI9);
+    DIListHarness.append(ui->lblHarnessDI10);
+    DIListHarness.append(ui->lblHarnessDI11);
+    DIListHarness.append(ui->lblHarnessDI12);
+    DIListHarness.append(ui->lblHarnessDI13);
+    DIListHarness.append(ui->lblHarnessDI14);
+    DIListHarness.append(ui->lblHarnessDI15);
+    DIListHarness.append(ui->lblHarnessDI16);
+    DIListHarness.append(ui->lblHarnessDI17);
+    DIListHarness.append(ui->lblHarnessDI18);
+    DIListHarness.append(ui->lblHarnessDI19);
+    DIListHarness.append(ui->lblHarnessDI20);
+    DIListHarness.append(ui->lblHarnessDI21);
+    DIListHarness.append(ui->lblHarnessDI22);
+    DIListHarness.append(ui->lblHarnessDI23);
+    DIListHarness.append(ui->lblHarnessDI24);
+    DIListHarness.append(ui->lblHarnessDI25);
+    DIListHarness.append(ui->lblHarnessDI26);
+    DIListHarness.append(ui->lblHarnessDI27);
+    DIListHarness.append(ui->lblHarnessDI28);
+    DIListHarness.append(ui->lblHarnessDI29);
+    DIListHarness.append(ui->lblHarnessDI30);
+    DIListHarness.append(ui->lblHarnessDI31);
+    DIListHarness.append(ui->lblHarnessDI32);
+    DIListHarness.append(ui->lblHarnessDI33);
+    DIListHarness.append(ui->lblHarnessDI34);
+    DIListHarness.append(ui->lblHarnessDI35);
+    DIListHarness.append(ui->lblHarnessDI36);
+    DIListHarness.append(ui->lblHarnessDI37);
+    DIListHarness.append(ui->lblHarnessDI38);
+    DIListHarness.append(ui->lblHarnessDI39);
+    DIListHarness.append(ui->lblHarnessDI40);
+    DIListHarness.append(ui->lblHarnessDI41);
+    DIListHarness.append(ui->lblHarnessDI42);
+    DIListHarness.append(ui->lblHarnessDI43);
+    DIListHarness.append(ui->lblHarnessDI44);
+    DIListHarness.append(ui->lblHarnessDI45);
+    DIListHarness.append(ui->lblHarnessDI46);
+    DIListHarness.append(ui->lblHarnessDI47);
+    DIListHarness.append(ui->lblHarnessDI48);
+    DIListHarness.append(ui->lblHarnessDI49);
+    DIListHarness.append(ui->lblHarnessDI50);
+    DIListHarness.append(ui->lblHarnessDI51);
+    DIListHarness.append(ui->lblHarnessDI52);
+    DIListHarness.append(ui->lblHarnessDI53);
+    DIListHarness.append(ui->lblHarnessDI54);
+    DIListHarness.append(ui->lblHarnessDI55);
+    DIListHarness.append(ui->lblHarnessDI56);
+    DIListHarness.append(ui->lblHarnessDI57);
+    DIListHarness.append(ui->lblHarnessDI58);
+    DIListHarness.append(ui->lblHarnessDI59);
+    DIListHarness.append(ui->lblHarnessDI60);
+    DIListHarness.append(ui->lblHarnessDI61);
+    DIListHarness.append(ui->lblHarnessDI62);
+    DIListHarness.append(ui->lblHarnessDI63);
+    DIListHarness.append(ui->lblHarnessDI64);
+    DIListHarness.append(ui->lblHarnessDI65);
+    DIListHarness.append(ui->lblHarnessDI66);
+    DIListHarness.append(ui->lblHarnessDI67);
+    DIListHarness.append(ui->lblHarnessDI68);
+    DIListHarness.append(ui->lblHarnessDI69);
+    DIListHarness.append(ui->lblHarnessDI70);
+    DIListHarness.append(ui->lblHarnessDI71);
+    DIListHarness.append(ui->lblHarnessDI72);
+    DIListHarness.append(ui->lblHarnessDI73);
+    DIListHarness.append(ui->lblHarnessDI74);
+    DIListHarness.append(ui->lblHarnessDI75);
+    DIListHarness.append(ui->lblHarnessDI76);
+    DIListHarness.append(ui->lblHarnessDI77);
+    DIListHarness.append(ui->lblHarnessDI78);
+    DIListHarness.append(ui->lblHarnessDI79);
+    DIListHarness.append(ui->lblHarnessDI80);
+    DIListHarness.append(ui->lblHarnessDI81);
+    DIListHarness.append(ui->lblHarnessDI82);
+    DIListHarness.append(ui->lblHarnessDI83);
+    DIListHarness.append(ui->lblHarnessDI84);
+    DIListHarness.append(ui->lblHarnessDI85);
+    DIListHarness.append(ui->lblHarnessDI86);
+    DIListHarness.append(ui->lblHarnessDI87);
+    DIListHarness.append(ui->lblHarnessDI88);
+    DIListHarness.append(ui->lblHarnessDI89);
+    DIListHarness.append(ui->lblHarnessDI90);
+    DIListHarness.append(ui->lblHarnessDI91);
+    DIListHarness.append(ui->lblHarnessDI92);
+    DIListHarness.append(ui->lblHarnessDI93);
+    DIListHarness.append(ui->lblHarnessDI94);
+    DIListHarness.append(ui->lblHarnessDI95);
+    DIListHarness.append(ui->lblHarnessDI96);
+    DIListHarness.append(ui->lblHarnessDI97);
+
+}
+
 void MainWindow::addAIToList()
 {
     AIList.append(ui->txtAI1);
@@ -314,6 +520,15 @@ void MainWindow::addAIToList()
     AIList.append(ui->txtAI8);
     AIList.append(ui->txtAI9);
     AIList.append(ui->txtAI10);
+
+    AIRowList.append(ui->txtAI1_3);
+    AIRowList.append(ui->txtAI1_4);
+    AIRowList.append(ui->txtAI1_5);
+    AIRowList.append(ui->txtAI1_6);
+    AIRowList.append(ui->txtAI1_7);
+    AIRowList.append(ui->txtAI1_8);
+    AIRowList.append(ui->txtAI1_9);
+    AIRowList.append(ui->txtAI1_10);
 }
 
 void MainWindow::addAIToListFCU()
@@ -336,6 +551,9 @@ void MainWindow::update()
     updateAI();
     updateCCUFCUDI();
     updateAIFCUCCU();
+    updateDIHarness();
+    updateLink();
+    //updateDOHarness();
 
 }
 
@@ -350,6 +568,21 @@ void MainWindow::updateDO()
         else
         {
             DOList[i - 1]->setStyleSheet("background-color: red;border-radius:20px;");
+        }
+    }
+}
+
+void MainWindow::updateDOHarness()
+{
+    for(int i= 0;i<DOListHarness.count();i++)
+    {
+        if(plcCommObj->getDoValue(i) == 1)
+        {
+            DOListHarness[i]->setStyleSheet("background-color: green;border-radius:20px;");
+        }
+        else
+        {
+            DOListHarness[i]->setStyleSheet("background-color: red;border-radius:20px;");
         }
     }
 }
@@ -374,6 +607,21 @@ void MainWindow::updateDI()
     }
 }
 
+void MainWindow::updateDIHarness()
+{
+    for(int i= 1;i<DIListHarness.count() + 1 ;i++)
+    {
+        if(plcCommObj->getDiValue(i) == 1)
+        {
+            DIListHarness[i -1]->setStyleSheet("background-color: green;border-radius:20px;");
+        }
+        else
+        {
+            DIListHarness[i -1]->setStyleSheet("background-color: red;border-radius:20px;");
+        }
+    }
+}
+
 void MainWindow::updateCCUFCUDI()
 {
     for(int i= 0;i<CCUDIList.count();i++)
@@ -394,8 +642,28 @@ void MainWindow::updateAI()
     QString val;
     for(int i= 1;i<AIList.count();i++)
     {
+      //  val = QString::number(plcCommObj->getAiValue(i));
+        int channel4 = plcCommObj->getAiValue(i);
+        qDebug()<<"channel4"<<channel4;
+
+        if(i == 7)
+        {
+            //float voltagechannel4 = (30.0 / 28000.0) * channel4 ;// ((0.0003607 * channel4) - 0.963) * 3;
+            float voltagechannel4 = (1.0 / 28000.0) * channel4 * 10 * 3;// ((0.0003607 * channel4) - 0.963) * 3;
+            qDebug()<<"voltagechannel4"<<voltagechannel4;
+            AIList[i - 1]->setText(QString::number(voltagechannel4));
+        }else
+        {
+            float voltagechannel4 = (1.0 / 28000.0) * channel4 * 10 * 2;
+            AIList[i - 1]->setText(QString::number(voltagechannel4));
+        }
+
+    }
+
+    for(int i= 1;i<AIRowList.count();i++)
+    {
         val = QString::number(plcCommObj->getAiValue(i));
-        AIList[i - 1]->setText(val);
+        AIRowList[i - 1]->setText(val);
     }
 }
 
@@ -412,6 +680,29 @@ void MainWindow::updateAIFCUCCU()
     for(int i = 0; i < 8; i++)
     {
         qDebug() <<"val" <<fcuCommObj->getAIFromFCUCCU(i);
+    }
+
+}
+
+void MainWindow::updateLink()
+{
+    if (plcCommObj->linkStatus == 1)
+    {
+        ui->lblUTMConnection->setText(
+            "<div style='font-family:\"Roboto\"; text-align:center;'>"
+            "<p style='font-size:16px; line-height:20px; margin:0;'>Connected</p>"
+            "</div>"
+        );
+        ui->lblUTMConnection->setStyleSheet("background-color: rgb(73, 202, 66); color: white; border-bottom-right-radius: 10px; border-top-left-radius: 10px;");
+    }
+    else if (plcCommObj->linkStatus == 0)
+    {
+        ui->lblUTMConnection->setText(
+            "<div style='font-family:\"Roboto\"; text-align:center;'>"
+            "<p style='font-size:16px; line-height:20px; margin:0;'>Test Jig</p>"
+            "</div>"
+        );
+        ui->lblUTMConnection->setStyleSheet("background-color: rgb(233, 69, 69); color: white; border-bottom-right-radius: 10px; border-top-left-radius: 10px;");
     }
 
 }
@@ -1377,6 +1668,22 @@ void MainWindow::updateBtn(int plcDoChno, QPushButton *btn)
 
 }
 
+void MainWindow::updateBtnHarness(int plcDoChno, QPushButton *btn)
+{
+    if(btn->text() == "OFF")
+    {
+        plcCommObj->setDoValue(plcDoChno,1);
+       // DOListHarness[plcDoChno]->setStyleSheet("background-color: green;border-radius:20px;");
+        btn->setText("ON");
+    }
+    else
+    {
+        plcCommObj->setDoValue(plcDoChno,0);
+        btn->setText("OFF");
+      //  DOListHarness[plcDoChno]->setStyleSheet("background-color: red;border-radius:20px;");
+    }
+}
+
 void MainWindow::on_btnDO1_2_clicked()
 {
     updateBtn(0,ui->btnDO1_2);
@@ -1750,4 +2057,563 @@ void MainWindow::on_btnDO1_3_clicked()
 {
 
 }
+
+
+
+void MainWindow::on_btnHarnessDO1_clicked()
+{
+    updateBtnHarness(1,ui->btnHarnessDO1);
+}
+
+void MainWindow::on_btnHarnessDO2_clicked()
+{
+    updateBtnHarness(2,ui->btnHarnessDO2);
+}
+
+void MainWindow::on_btnHarnessDO3_clicked()
+{
+    updateBtnHarness(3,ui->btnHarnessDO3);
+}
+
+void MainWindow::on_btnHarnessDO4_clicked()
+{
+    updateBtnHarness(4,ui->btnHarnessDO4);
+}
+
+void MainWindow::on_btnHarnessDO5_clicked()
+{
+    updateBtnHarness(5,ui->btnHarnessDO5);
+
+}
+
+void MainWindow::on_btnHarnessDO6_clicked()
+{
+    updateBtnHarness(6,ui->btnHarnessDO6);
+
+}
+
+void MainWindow::on_btnHarnessDO7_clicked()
+{
+    updateBtnHarness(7,ui->btnHarnessDO7);
+}
+
+void MainWindow::on_btnHarnessDO8_clicked()
+{
+    updateBtnHarness(8,ui->btnHarnessDO8);
+
+}
+
+void MainWindow::on_btnHarnessDO9_clicked()
+{
+    updateBtnHarness(9,ui->btnHarnessDO9);
+
+}
+
+void MainWindow::on_btnHarnessDO10_clicked()
+{
+    updateBtnHarness(10,ui->btnHarnessDO10);
+
+}
+
+void MainWindow::on_btnHarnessDO11_clicked()
+{
+    updateBtnHarness(11,ui->btnHarnessDO11);
+
+}
+
+void MainWindow::on_btnHarnessDO12_clicked()
+{
+    updateBtnHarness(12,ui->btnHarnessDO12);
+
+}
+
+void MainWindow::on_btnHarnessDO13_clicked()
+{
+    updateBtnHarness(13,ui->btnHarnessDO13);
+
+}
+
+void MainWindow::on_btnHarnessDO14_clicked()
+{
+    updateBtnHarness(14,ui->btnHarnessDO14);
+}
+
+void MainWindow::on_btnHarnessDO15_clicked()
+{
+    updateBtnHarness(15,ui->btnHarnessDO15);
+}
+
+void MainWindow::on_btnHarnessDO16_clicked()
+{
+    updateBtnHarness(16,ui->btnHarnessDO16);
+}
+
+void MainWindow::on_btnHarnessDO17_clicked()
+{
+    updateBtnHarness(17,ui->btnHarnessDO17);
+}
+
+void MainWindow::on_btnHarnessDO18_clicked()
+{
+    updateBtnHarness(18,ui->btnHarnessDO18);
+}
+
+void MainWindow::on_btnHarnessDO19_clicked()
+{
+    updateBtnHarness(19,ui->btnHarnessDO19);
+}
+
+void MainWindow::on_btnHarnessDO20_clicked()
+{
+    updateBtnHarness(20,ui->btnHarnessDO20);
+
+}
+
+void MainWindow::on_btnHarnessDO21_clicked()
+{
+    updateBtnHarness(21,ui->btnHarnessDO21);
+
+}
+
+void MainWindow::on_btnHarnessDO22_clicked()
+{
+    updateBtnHarness(22,ui->btnHarnessDO22);
+
+}
+
+void MainWindow::on_btnHarnessDO23_clicked()
+{
+    updateBtnHarness(23,ui->btnHarnessDO23);
+
+}
+
+void MainWindow::on_btnHarnessDO24_clicked()
+{
+    updateBtnHarness(24,ui->btnHarnessDO24);
+
+}
+
+void MainWindow::on_btnHarnessDO25_clicked()
+{
+    updateBtnHarness(25,ui->btnHarnessDO25);
+
+}
+
+void MainWindow::on_btnHarnessDO26_clicked()
+{
+    updateBtnHarness(26,ui->btnHarnessDO26);
+
+}
+
+void MainWindow::on_btnHarnessDO27_clicked()
+{
+    updateBtnHarness(27,ui->btnHarnessDO27);
+
+}
+
+void MainWindow::on_btnHarnessDO28_clicked()
+{
+    updateBtnHarness(28,ui->btnHarnessDO28);
+
+}
+
+void MainWindow::on_btnHarnessDO29_clicked()
+{
+    updateBtnHarness(29,ui->btnHarnessDO29);
+
+}
+
+void MainWindow::on_btnHarnessDO30_clicked()
+{
+    updateBtnHarness(30,ui->btnHarnessDO30);
+
+}
+
+void MainWindow::on_btnHarnessDO31_clicked()
+{
+    updateBtnHarness(31,ui->btnHarnessDO31);
+
+}
+
+void MainWindow::on_btnHarnessDO32_clicked()
+{
+    updateBtnHarness(32,ui->btnHarnessDO32);
+
+}
+
+void MainWindow::on_btnHarnessDO33_clicked()
+{
+    updateBtnHarness(33,ui->btnHarnessDO33);
+
+}
+
+void MainWindow::on_btnHarnessDO34_clicked()
+{
+    updateBtnHarness(34,ui->btnHarnessDO34);
+
+}
+
+void MainWindow::on_btnHarnessDO35_clicked()
+{
+    updateBtnHarness(35,ui->btnHarnessDO35);
+
+}
+
+void MainWindow::on_btnHarnessDO36_clicked()
+{
+    updateBtnHarness(36,ui->btnHarnessDO36);
+
+}
+
+void MainWindow::on_btnHarnessDO37_clicked()
+{
+    updateBtnHarness(37,ui->btnHarnessDO37);
+
+}
+
+void MainWindow::on_btnHarnessDO38_clicked()
+{
+    updateBtnHarness(38,ui->btnHarnessDO38);
+
+}
+
+void MainWindow::on_btnHarnessDO39_clicked()
+{
+    updateBtnHarness(39,ui->btnHarnessDO39);
+
+}
+
+void MainWindow::on_btnHarnessDO40_clicked()
+{
+    updateBtnHarness(40,ui->btnHarnessDO40);
+
+}
+
+void MainWindow::on_btnHarnessDO41_clicked()
+{
+    updateBtnHarness(41,ui->btnHarnessDO41);
+
+}
+
+void MainWindow::on_btnHarnessDO42_clicked()
+{
+    updateBtnHarness(42,ui->btnHarnessDO42);
+
+}
+
+void MainWindow::on_btnHarnessDO43_clicked()
+{
+    updateBtnHarness(43,ui->btnHarnessDO43);
+
+}
+
+void MainWindow::on_btnHarnessDO44_clicked()
+{
+    updateBtnHarness(44,ui->btnHarnessDO44);
+}
+
+void MainWindow::on_btnHarnessDO45_clicked()
+{
+    updateBtnHarness(45,ui->btnHarnessDO45);
+}
+
+void MainWindow::on_btnHarnessDO46_clicked()
+{
+    updateBtnHarness(46,ui->btnHarnessDO46);
+
+}
+
+void MainWindow::on_btnHarnessDO47_clicked()
+{
+    updateBtnHarness(47,ui->btnHarnessDO47);
+
+}
+
+void MainWindow::on_btnHarnessDO48_clicked()
+{
+    updateBtnHarness(48,ui->btnHarnessDO48);
+
+}
+
+void MainWindow::on_btnHarnessDO49_clicked()
+{
+    updateBtnHarness(49,ui->btnHarnessDO49);
+
+}
+
+void MainWindow::on_btnHarnessDO50_clicked()
+{
+    updateBtnHarness(50,ui->btnHarnessDO50);
+
+}
+
+void MainWindow::on_btnHarnessDO51_clicked()
+{
+    updateBtnHarness(51,ui->btnHarnessDO51);
+
+}
+
+void MainWindow::on_btnHarnessDO52_clicked()
+{
+    updateBtnHarness(52,ui->btnHarnessDO52);
+
+}
+
+void MainWindow::on_btnHarnessDO53_clicked()
+{
+    updateBtnHarness(53,ui->btnHarnessDO53);
+
+}
+
+void MainWindow::on_btnHarnessDO54_clicked()
+{
+    updateBtnHarness(54,ui->btnHarnessDO54);
+
+}
+
+void MainWindow::on_btnHarnessDO55_clicked()
+{
+    updateBtnHarness(55,ui->btnHarnessDO55);
+
+}
+
+void MainWindow::on_btnHarnessDO56_clicked()
+{
+    updateBtnHarness(56,ui->btnHarnessDO56);
+
+}
+
+void MainWindow::on_btnHarnessDO57_clicked()
+{
+    updateBtnHarness(57,ui->btnHarnessDO57);
+
+}
+
+void MainWindow::on_btnHarnessDO58_clicked()
+{
+    updateBtnHarness(58,ui->btnHarnessDO58);
+
+}
+
+void MainWindow::on_btnHarnessDO59_clicked()
+{
+    updateBtnHarness(59,ui->btnHarnessDO59);
+
+}
+
+void MainWindow::on_btnHarnessDO60_clicked()
+{
+    updateBtnHarness(60,ui->btnHarnessDO60);
+
+}
+
+void MainWindow::on_btnHarnessDO61_clicked()
+{
+    updateBtnHarness(61,ui->btnHarnessDO61);
+
+}
+
+void MainWindow::on_btnHarnessDO62_clicked()
+{
+    updateBtnHarness(62,ui->btnHarnessDO62);
+
+}
+
+void MainWindow::on_btnHarnessDO63_clicked()
+{
+    updateBtnHarness(63,ui->btnHarnessDO63);
+
+}
+
+void MainWindow::on_btnHarnessDO64_clicked()
+{
+    updateBtnHarness(64,ui->btnHarnessDO64);
+
+}
+
+void MainWindow::on_btnHarnessDO65_clicked()
+{
+    updateBtnHarness(65,ui->btnHarnessDO65);
+}
+
+void MainWindow::on_btnHarnessDO66_clicked()
+{
+    updateBtnHarness(66,ui->btnHarnessDO66);
+
+}
+
+void MainWindow::on_btnHarnessDO67_clicked()
+{
+    updateBtnHarness(67,ui->btnHarnessDO67);
+}
+
+void MainWindow::on_btnHarnessDO68_clicked()
+{
+    updateBtnHarness(68,ui->btnHarnessDO68);
+}
+
+void MainWindow::on_btnHarnessDO69_clicked()
+{
+    updateBtnHarness(69,ui->btnHarnessDO69);
+}
+
+void MainWindow::on_btnHarnessDO670_clicked()
+{
+    updateBtnHarness(70,ui->btnHarnessDO670);
+}
+
+void MainWindow::on_btnHarnessDO71_clicked()
+{
+    updateBtnHarness(71,ui->btnHarnessDO71);
+}
+
+void MainWindow::on_btnHarnessDO72_clicked()
+{
+    updateBtnHarness(72,ui->btnHarnessDO72);
+}
+
+void MainWindow::on_btnHarnessDO73_clicked()
+{
+    updateBtnHarness(73,ui->btnHarnessDO73);
+}
+
+void MainWindow::on_btnHarnessDO74_clicked()
+{
+    updateBtnHarness(74,ui->btnHarnessDO74);
+}
+
+void MainWindow::on_btnHarnessDO75_clicked()
+{
+    updateBtnHarness(75,ui->btnHarnessDO75);
+
+}
+
+void MainWindow::on_btnHarnessDO76_clicked()
+{
+    updateBtnHarness(76,ui->btnHarnessDO76);
+
+}
+
+void MainWindow::on_btnHarnessDO77_clicked()
+{
+    updateBtnHarness(77,ui->btnHarnessDO77);
+
+}
+
+void MainWindow::on_btnHarnessDO78_clicked()
+{
+    updateBtnHarness(78,ui->btnHarnessDO78);
+
+}
+
+void MainWindow::on_btnHarnessDO79_clicked()
+{
+    updateBtnHarness(79,ui->btnHarnessDO79);
+
+}
+
+void MainWindow::on_btnHarnessDO80_clicked()
+{
+    updateBtnHarness(80,ui->btnHarnessDO80);
+
+}
+
+void MainWindow::on_btnHarnessDO81_clicked()
+{
+    updateBtnHarness(81,ui->btnHarnessDO81);
+
+}
+
+void MainWindow::on_btnHarnessDO82_clicked()
+{
+    updateBtnHarness(82,ui->btnHarnessDO82);
+
+}
+
+void MainWindow::on_btnHarnessDO83_clicked()
+{
+    updateBtnHarness(83,ui->btnHarnessDO83);
+
+}
+
+void MainWindow::on_btnHarnessDO84_clicked()
+{
+    updateBtnHarness(84,ui->btnHarnessDO84);
+
+}
+
+void MainWindow::on_btnHarnessDO85_clicked()
+{
+    updateBtnHarness(85,ui->btnHarnessDO85);
+
+}
+
+void MainWindow::on_btnHarnessDO88_clicked()
+{
+    updateBtnHarness(86,ui->btnHarnessDO88);
+
+}
+
+void MainWindow::on_btnHarnessDO87_clicked()
+{
+    updateBtnHarness(87,ui->btnHarnessDO87);
+
+}
+
+void MainWindow::on_btnHarnessDO88_2_clicked()
+{
+    updateBtnHarness(88,ui->btnHarnessDO88_2);
+
+}
+
+void MainWindow::on_btnHarnessDO89_clicked()
+{
+    updateBtnHarness(89,ui->btnHarnessDO89);
+}
+
+void MainWindow::on_btnHarnessDO90_clicked()
+{
+    updateBtnHarness(90,ui->btnHarnessDO90);
+}
+
+void MainWindow::on_btnHarnessDO91_clicked()
+{
+    updateBtnHarness(91,ui->btnHarnessDO91);
+
+}
+
+void MainWindow::on_btnHarnessDO92_clicked()
+{
+    updateBtnHarness(92,ui->btnHarnessDO92);
+
+}
+void MainWindow::on_btnHarnessDO94_2_clicked()
+{
+    updateBtnHarness(93,ui->btnHarnessDO94_2);
+}
+
+void MainWindow::on_btnHarnessDO94_clicked()
+{
+    updateBtnHarness(94,ui->btnHarnessDO94);
+}
+
+void MainWindow::on_btnHarnessDO95_clicked()
+{
+    updateBtnHarness(95,ui->btnHarnessDO95);
+
+}
+
+void MainWindow::on_btnHarnessDO96_clicked()
+{
+    updateBtnHarness(96,ui->btnHarnessDO96);
+
+}
+
+void MainWindow::on_btnHarnessDO97_clicked()
+{
+    updateBtnHarness(97,ui->btnHarnessDO97);
+
+}
+
+
 

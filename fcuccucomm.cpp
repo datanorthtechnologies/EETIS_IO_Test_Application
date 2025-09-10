@@ -317,6 +317,7 @@ void FCUCCUComm::writeAOChannels()
     create_message(msg, 32, data);
 
     send_udp_message(IP_ADDRESS, AO_WRITE_PORT, msg, AOWriteSocket);
+    qDebug()<<"FCU_CCU_AOWrite : "<<data;
 
 }
 

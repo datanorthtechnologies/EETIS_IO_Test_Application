@@ -7,15 +7,15 @@
 #include <QTimer>
 
 //plc comm
-#define IP_ADDR                     "192.168.0.15"
+#define IP_ADDR                     "192.168.0.10"
 //#define IP_ADDR                     "127.0.0.7"
 #define PORT_NUM                    502
 #define SLAVE_ADDRESS               0
 #define WRITE_SINGLE_REG            6
 #define NO_OF_REGISTERS             125
 
-#define NO_OF_DI_REG                4
-#define NO_OF_DO_REG                4
+#define NO_OF_DI_REG                8
+#define NO_OF_DO_REG                8
 #define NO_OF_AI_REG                16
 #define NO_OF_AO_REG                16
 
@@ -114,7 +114,7 @@ public:
     short plcAIs[NO_OF_BYTES_AI] = {0};
     short plcAOs[NO_OF_BYTES_AO] = {0};
 
-   // int linkStatus = 0;
+    int linkStatus = 0;
 
 
 private:
@@ -122,6 +122,7 @@ private:
     unsigned short baseAddrOfDO;
     unsigned short baseAddrOfAI;
     unsigned short baseAddrOfAO;
+
 
     int cycleId = DI_CHANNEL;
     int waitingResponse = 0;

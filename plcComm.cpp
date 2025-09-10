@@ -1,5 +1,6 @@
-#include <QThread>
 #include "plcComm.h"
+#include <QThread>
+
 
 plcComm::plcComm(QObject *parent) : QObject(parent)
 {
@@ -28,6 +29,7 @@ plcComm::plcComm(QObject *parent) : QObject(parent)
     qDebug("At end of constructor of plcComm");
 }
 
+
 void plcComm::initReadWriteTimers()
 {
     sendReqTimer = new QTimer(this);
@@ -52,20 +54,20 @@ void plcComm::respTimeOut()
 
 void plcComm::onConnected()
 {
-
+    linkStatus = 1;
     reconnectTimer->stop(); // Stop reconnection timer if connected
 }
 
 void plcComm::onDisconnected()
 {
-
+    linkStatus = 0;
     reconnectTimer->start(); // Start reconnection timer on disconnection
 }
 
 void plcComm::onError(QAbstractSocket::SocketError socketError)
 {
-
-    qDebug() << "onError's Error: " << modbusTcpSocket->errorString();
+    linkStatus = 0;
+    //qDebug() << "onError's Error: " << modbusTcpSocket->errorString();
     reconnectTimer->start(); // Start reconnection timer on error
 }
 
@@ -73,7 +75,7 @@ void plcComm::reconnect()
 {
     if (modbusTcpSocket->state() == QAbstractSocket::UnconnectedState)
     {
-        qDebug() << "Inside if Attempting to reconnect...";
+        //qDebug() << "Inside if Attempting to reconnect...";
         connectModbusTcpSocket(IP_ADDR, PORT_NUM);
     }
 }
@@ -90,8 +92,8 @@ void plcComm::connectModbusTcpSocket(const QString &host, quint16 port)
 
     if (!modbusTcpSocket->waitForConnected(3000)) // Wait for 3 seconds to connect
     {
-        qDebug() << "Initial connection error: " << modbusTcpSocket->errorString();
-
+        //qDebug() << "Initial connection error: " << modbusTcpSocket->errorString();
+        linkStatus = 0;
         //reconnectTimer->start(); // Start reconnection timer if connection fails
 
         qDebug() << "Error: " << modbusTcpSocket->errorString();
@@ -101,7 +103,7 @@ void plcComm::connectModbusTcpSocket(const QString &host, quint16 port)
     else
     {
         qDebug() << "Initial connection successful!";
-
+        linkStatus = 1;
     }
 }
 
@@ -294,7 +296,6 @@ int plcComm::writeMulHoldReg(unsigned short startRegAddr, unsigned short noOfReg
         }
         else
         {
-
             storeDoDataInRegArray(&regArrayForDO[0], noOfRegToWrite, &plcDOs[startRegAddr-baseAddrOfDO]);
 
             QByteArray writeDoChannels = createModbusWriteRequest(DO_TRANS_ID, WRITE_MULTIPLE_REGS, startRegAddr, noOfRegToWrite, &regArrayForDO[0]);
@@ -402,8 +403,7 @@ int plcComm::getDiValue(int diChannel)
     {
         diValue = plcDIs[diChannel - 1];
     }
-    return (diValue);
-}
+    return (diValue);}
 
 int plcComm::getDoValue(int doChannel)
 {
@@ -428,12 +428,13 @@ short plcComm::getAiValue(int aiChannel)
         temp1 = plcAIs[aiChannel - 1] & 0xFF;
         temp2 = (plcAIs[aiChannel - 1] >> 8) & 0xFF;
         aiData = temp1 * 256 + temp2;
+
+        qDebug()<<"plcAIs[aiChannel - 1] :"<<plcAIs[aiChannel - 1];
+        qDebug()<<"temp1:"<<temp1;
+        qDebug()<<"temp2:"<<temp2;
     }
 
     return(aiData);
-
-    //return(plcAIs[aiChannel]);
-
 }
 
 short plcComm::getAoValue(int aoChannel)
@@ -459,11 +460,19 @@ void plcComm::setDoValue(int doChannel, char data)
     {
         plcDOs[doChannel - 1] = data;
     }
+
+    //print DOs
+//    qDebug() << "DOs:";
+//    for(int i = 0; i < NO_OF_DOs; i++)
+//    {
+//        qDebug() << "plcDOs[" << i << "]:" << plcDOs[i];
+    //    }
 }
+
 
 void plcComm::setAoValue(int aoChannel, short data)
 {
-    //  qDebug()<< "aoChannel" << aoChannel << "data:" << data;
+    qDebug()<< "aoChannel" << aoChannel << "data:" << data;
     unsigned char temp1;
     unsigned char temp2;
 
@@ -474,8 +483,6 @@ void plcComm::setAoValue(int aoChannel, short data)
     {
         plcAOs[aoChannel - 1]= temp1 * 256 + temp2;
     }
-
-    //plcAOs[aoChannel] = data;
 }
 
 QByteArray plcComm::createModbusReadRequest(int transId, unsigned char funcCode, unsigned short startingRegAddr, unsigned short noOfRegToRead)
@@ -511,7 +518,7 @@ void plcComm::storeDoDataInRegArray(short *doDataInRegArray, unsigned short noOf
 bool plcComm::getLinkStatus()
 {
     //    qDebug() << "Inside getLinkStatus of plcComm linkStatus:"<< linkStatus;
-    return(1);
+    return(linkStatus);
 }
 
 void plcComm::setBaseAddrOfDI(unsigned short regAddr)
